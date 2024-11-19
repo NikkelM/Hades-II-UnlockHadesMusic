@@ -16,14 +16,14 @@ local newData = {
     Description = "A rousing theme created for the god of the dead."
   },
   {
-    Id = "Song_Hades_MusicExploration4",
-    DisplayName = "Hades - The House of Hades",
-    Description = "Understated theme permitted in the House of Hades."
-  },
-  {
     Id = "Song_Hades_HadesTheme",
     DisplayName = "Hades - Death and I",
     Description = "A brief and frankly unhappy piece Lord Hades enjoys."
+  },
+  {
+    Id = "Song_Hades_MusicExploration4",
+    DisplayName = "Hades - The House of Hades",
+    Description = "Understated theme permitted in the House of Hades."
   },
   {
     Id = "Song_Hades_MusicHadesReset",
@@ -81,6 +81,26 @@ local newData = {
     Description = "Dedicated to those trespassing in the Temple of Styx."
   },
   {
+    Id = "Song_Hades_BossFightMusic",
+    DisplayName = "Hades - God of the Dead",
+    Description = "Commissioned long ago in honor of Lord Hades."
+  },
+  {
+    Id = "Song_Hades_TheUnseenOnes",
+    DisplayName = "Hades - The Unseen Ones",
+    Description = "Banned for containing too many music notes per second."
+  },
+  {
+    Id = "Song_Hades_CharonShopTheme",
+    DisplayName = "Hades - Final Expense",
+    Description = "Commissioned expressly for the Stygian Boatman."
+  },
+  {
+    Id = "Song_Hades_CharonFightTheme",
+    DisplayName = "Hades - Final Expense (Payback Mix)",
+    Description = "Commissioned expressly for the Stygian Boatman."
+  },
+  {
     Id = "Song_Hades_ChaosTheme",
     DisplayName = "Hades - Primordial Chaos",
     Description = "Ode to the oft-forgotten originator of all things."
@@ -106,26 +126,6 @@ local newData = {
     Description = "Solemn piece reflecting the divide between realms."
   },
   {
-    Id = "Song_Hades_CharonShopTheme",
-    DisplayName = "Hades - Final Expense",
-    Description = "Commissioned expressly for the Stygian Boatman."
-  },
-  {
-    Id = "Song_Hades_CharonFightTheme",
-    DisplayName = "Hades - Final Expense (Payback Mix)",
-    Description = "Commissioned expressly for the Stygian Boatman."
-  },
-  {
-    Id = "Song_Hades_EurydiceSong1",
-    DisplayName = "Hades - Good Riddance",
-    Description = "A rousing celebration of the afterlife."
-  },
-  {
-    Id = "Song_Hades_EurydiceSong1Solo",
-    DisplayName = "Hades - Good Riddance (Eurydice Solo)",
-    Description = "A rousing celebration of the afterlife, sung by the muse herself."
-  },
-  {
     Id = "Song_Hades_OrpheusSong1",
     DisplayName = "Hades - Lament of Orpheus",
     Description = "The court-musician's regrets captured in song form."
@@ -136,14 +136,9 @@ local newData = {
     Description = "Ballad of the Prince of the Underworld's exploits."
   },
   {
-    Id = "Song_Hades_BossFightMusic",
-    DisplayName = "Hades - God of the Dead",
-    Description = "Commissioned long ago in honor of Lord Hades."
-  },
-  {
-    Id = "Song_Hades_TheUnseenOnes",
-    DisplayName = "Hades - The Unseen Ones",
-    Description = "Banned for containing too many music notes per second."
+    Id = "Song_Hades_EurydiceSong1",
+    DisplayName = "Hades - Good Riddance",
+    Description = "A rousing celebration of the afterlife."
   },
   {
     Id = "Song_Hades_PersephoneTheme",
@@ -154,6 +149,11 @@ local newData = {
     Id = "Song_Hades_EndTheme",
     DisplayName = "Hades - In the Blood",
     Description = "Popular duet reflects on home and family."
+  },
+  {
+    Id = "Song_Hades_EurydiceSong1Solo",
+    DisplayName = "Hades - Good Riddance (Eurydice Solo)",
+    Description = "A rousing celebration of the afterlife, sung by the muse herself."
   },
 }
 

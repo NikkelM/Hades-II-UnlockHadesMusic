@@ -3,8 +3,8 @@
 
 local songNames = {
 	"Song_Hades_MainTheme",
-	"Song_Hades_MusicExploration4",
 	"Song_Hades_HadesTheme",
+	"Song_Hades_MusicExploration4",
 	"Song_Hades_MusicHadesReset",
 	"Song_Hades_MusicHadesReset2",
 	"Song_Hades_MusicHadesReset3",
@@ -16,21 +16,21 @@ local songNames = {
 	"Song_Hades_MusicElysium2",
 	"Song_Hades_MusicElysium3",
 	"Song_Hades_MusicStyx1",
+	"Song_Hades_BossFightMusic",
+	"Song_Hades_TheUnseenOnes",
+	"Song_Hades_CharonShopTheme",
+	"Song_Hades_CharonFightTheme",
 	"Song_Hades_ChaosTheme",
 	"Song_Hades_ThanatosTheme",
 	"Song_Hades_MusicExploration1",
 	"Song_Hades_MusicExploration2",
 	"Song_Hades_MusicExploration3",
-	"Song_Hades_CharonShopTheme",
-	"Song_Hades_CharonFightTheme",
-	"Song_Hades_EurydiceSong1",
-	"Song_Hades_EurydiceSong1Solo",
 	"Song_Hades_OrpheusSong1",
 	"Song_Hades_OrpheusSong2",
-	"Song_Hades_BossFightMusic",
-	"Song_Hades_TheUnseenOnes",
+	"Song_Hades_EurydiceSong1",
 	"Song_Hades_PersephoneTheme",
 	"Song_Hades_EndTheme",
+	"Song_Hades_EurydiceSong1Solo",
 }
 
 local songWorldUpgradeData = {
@@ -42,18 +42,18 @@ local songWorldUpgradeData = {
 			CosmeticsPoints = 0,
 		},
 	},
-	Song_Hades_MusicExploration4 = {
-		Name = "Song_Hades_MusicExploration4",
-		InheritFrom = { "DefaultSongItem" },
-		TrackName = "{c1f44b16-95c0-48a5-a2e7-3fa0916e08a0}",
-		Cost = {
-			CosmeticsPoints = 0,
-		},
-	},
 	Song_Hades_HadesTheme = {
 		Name = "Song_Hades_HadesTheme",
 		InheritFrom = { "DefaultSongItem" },
 		TrackName = "{57fbe830-4207-4601-8ca1-cd69eebfa742}",
+		Cost = {
+			CosmeticsPoints = 0,
+		},
+	},
+	Song_Hades_MusicExploration4 = {
+		Name = "Song_Hades_MusicExploration4",
+		InheritFrom = { "DefaultSongItem" },
+		TrackName = "{c1f44b16-95c0-48a5-a2e7-3fa0916e08a0}",
 		Cost = {
 			CosmeticsPoints = 0,
 		},
@@ -146,6 +146,38 @@ local songWorldUpgradeData = {
 			CosmeticsPoints = 0,
 		},
 	},
+	Song_Hades_BossFightMusic = {
+		Name = "Song_Hades_BossFightMusic",
+		InheritFrom = { "DefaultSongItem" },
+		TrackName = "{fc71b797-75db-43af-8cc0-f50fdacb5dbc}",
+		Cost = {
+			CosmeticsPoints = 0,
+		},
+	},
+	Song_Hades_TheUnseenOnes = {
+		Name = "Song_Hades_TheUnseenOnes",
+		InheritFrom = { "DefaultSongItem" },
+		TrackName = "{50ebf4d6-4c76-416f-9c32-33787f99f27e}",
+		Cost = {
+			CosmeticsPoints = 0,
+		},
+	},
+	Song_Hades_CharonShopTheme = {
+		Name = "Song_Hades_CharonShopTheme",
+		InheritFrom = { "DefaultSongItem" },
+		TrackName = "{1d2d987b-853b-4a65-aa2d-a3e8c7e0e99b}",
+		Cost = {
+			CosmeticsPoints = 0,
+		},
+	},
+	Song_Hades_CharonFightTheme = {
+		Name = "Song_Hades_CharonFightTheme",
+		InheritFrom = { "DefaultSongItem" },
+		TrackName = "{75c830f2-e8b3-4a59-949b-be106e2ff1e6}",
+		Cost = {
+			CosmeticsPoints = 0,
+		},
+	},
 	Song_Hades_ChaosTheme = {
 		Name = "Song_Hades_ChaosTheme",
 		InheritFrom = { "DefaultSongItem" },
@@ -186,38 +218,6 @@ local songWorldUpgradeData = {
 			CosmeticsPoints = 0,
 		},
 	},
-	Song_Hades_CharonShopTheme = {
-		Name = "Song_Hades_CharonShopTheme",
-		InheritFrom = { "DefaultSongItem" },
-		TrackName = "{1d2d987b-853b-4a65-aa2d-a3e8c7e0e99b}",
-		Cost = {
-			CosmeticsPoints = 0,
-		},
-	},
-	Song_Hades_CharonFightTheme = {
-		Name = "Song_Hades_CharonFightTheme",
-		InheritFrom = { "DefaultSongItem" },
-		TrackName = "{75c830f2-e8b3-4a59-949b-be106e2ff1e6}",
-		Cost = {
-			CosmeticsPoints = 0,
-		},
-	},
-	Song_Hades_EurydiceSong1 = {
-		Name = "Song_Hades_EurydiceSong1",
-		InheritFrom = { "DefaultSongItem" },
-		TrackName = "{82cccfdf-8990-4ece-b3c3-52e549b91d5e}",
-		Cost = {
-			CosmeticsPoints = 0,
-		},
-	},
-	Song_Hades_EurydiceSong1Solo = {
-		Name = "Song_Hades_EurydiceSong1Solo",
-		InheritFrom = { "DefaultSongItem" },
-		TrackName = "{2888a0d0-33b5-454d-b596-220cf5922de1}",
-		Cost = {
-			CosmeticsPoints = 0,
-		},
-	},
 	Song_Hades_OrpheusSong1 = {
 		Name = "Song_Hades_OrpheusSong1",
 		InheritFrom = { "DefaultSongItem" },
@@ -234,18 +234,18 @@ local songWorldUpgradeData = {
 			CosmeticsPoints = 0,
 		},
 	},
-	Song_Hades_BossFightMusic = {
-		Name = "Song_Hades_BossFightMusic",
+	Song_Hades_EurydiceSong1 = {
+		Name = "Song_Hades_EurydiceSong1",
 		InheritFrom = { "DefaultSongItem" },
-		TrackName = "{fc71b797-75db-43af-8cc0-f50fdacb5dbc}",
+		TrackName = "{82cccfdf-8990-4ece-b3c3-52e549b91d5e}",
 		Cost = {
 			CosmeticsPoints = 0,
 		},
 	},
-	Song_Hades_TheUnseenOnes = {
-		Name = "Song_Hades_TheUnseenOnes",
+	Song_Hades_EurydiceSong1Solo = {
+		Name = "Song_Hades_EurydiceSong1Solo",
 		InheritFrom = { "DefaultSongItem" },
-		TrackName = "{50ebf4d6-4c76-416f-9c32-33787f99f27e}",
+		TrackName = "{2888a0d0-33b5-454d-b596-220cf5922de1}",
 		Cost = {
 			CosmeticsPoints = 0,
 		},
