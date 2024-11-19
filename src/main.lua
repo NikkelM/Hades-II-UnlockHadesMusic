@@ -46,6 +46,7 @@ local function on_ready()
 	import 'Scripts/LoadSoundBanks.lua'
 
 	-- Localizations
+	import 'Game/Text/HelpText.de.sjson.lua'
 	import 'Game/Text/HelpText.en.sjson.lua'
 	import 'Game/Text/HelpText.ru.sjson.lua'
 end
