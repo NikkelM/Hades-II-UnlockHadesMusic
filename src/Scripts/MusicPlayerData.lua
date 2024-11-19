@@ -28,9 +28,9 @@ local songNames = {
 	"MusicMusicPlayerOrpheusSong1MusicPlayer",
 	"MusicMusicPlayerOrpheusSong2MusicPlayer",
 	"MusicMusicPlayerEurydiceSong1MusicPlayer",
+	"MusicMusicPlayerEurydiceSong1SoloMusicPlayer",
 	"MusicMusicPlayerPersephoneThemeMusicPlayer",
 	"MusicMusicPlayerEndThemeMusicPlayer",
-	"MusicMusicPlayerEurydiceSong1SoloMusicPlayer",
 }
 
 local songWorldUpgradeData = {
