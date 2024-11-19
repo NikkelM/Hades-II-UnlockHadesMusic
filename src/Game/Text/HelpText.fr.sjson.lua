@@ -152,7 +152,7 @@ local newData = {
   },
   {
     Id = "MusicMusicPlayerEurydiceSong1SoloMusicPlayer",
-    DisplayName = "Hadès - Bon Débarras (Eurydice Solo)",
+    DisplayName = "Hadès - Bon Débarras (Eurydice)",
     Description = "Une célébration entraînante de la vie après la mort, chantée par la muse elle-même."
   },
 }
