@@ -49,6 +49,7 @@ local function on_ready()
 	import 'Game/Text/HelpText.de.sjson.lua'
 	import 'Game/Text/HelpText.en.sjson.lua'
 	import 'Game/Text/HelpText.es.sjson.lua'
+	import 'Game/Text/HelpText.fr.sjson.lua'
 	import 'Game/Text/HelpText.ru.sjson.lua'
 end
 
