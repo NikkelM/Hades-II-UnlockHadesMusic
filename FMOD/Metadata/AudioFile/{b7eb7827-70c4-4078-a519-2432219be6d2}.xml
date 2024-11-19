@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b7eb7827-70c4-4078-a519-2432219be6d2}">
+		<property name="assetPath">
+			<value>10 Final Expense.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>153.71666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a3b346cc-7f6c-4b51-acb8-491971281eb5}</destination>
+		</relationship>
+	</object>
+</objects>

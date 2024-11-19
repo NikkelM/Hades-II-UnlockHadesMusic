@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{64261397-eb61-48cc-a5c3-d3684612306d}">
+		<property name="assetPath">
+			<value>06 The Painful Way.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>413.75</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a3b346cc-7f6c-4b51-acb8-491971281eb5}</destination>
+		</relationship>
+	</object>
+</objects>

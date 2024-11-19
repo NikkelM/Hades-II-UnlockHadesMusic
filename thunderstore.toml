@@ -1,0 +1,48 @@
+[config]
+schemaVersion = "0.0.1"
+
+
+[package]
+namespace = "NikkelM"
+name = "Hades_OST_for_the_Music_Maker"
+versionNumber = "0.1.0"
+description = "Adds the Hades OST as songs to the Music Maker."
+websiteUrl = "https://github.com/NikkelM/Hades-II-UnlockHadesMusic"
+containsNsfwContent = false
+
+[package.dependencies]
+Hell2Modding-Hell2Modding = "1.0.49"
+SGG_Modding-ENVY = "1.1.0"
+SGG_Modding-Chalk = "2.1.1"
+SGG_Modding-ReLoad = "1.0.2"
+SGG_Modding-SJSON = "1.0.0"
+SGG_Modding-ModUtil = "4.0.0"
+
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./CHANGELOG.md"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "./LICENSE"
+
+[[build.copy]]
+source = "./src"
+target = "./plugins"
+
+[[build.copy]]
+source = "./data"
+target = "./plugins_data"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "hades-ii", ]
+
+[publish.categories]
+hades-ii = [ "mods", "audio", "misc" ]

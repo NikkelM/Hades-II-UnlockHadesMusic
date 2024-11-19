@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{71aa093b-5293-4303-947e-71c4bfae1d97}">
+		<property name="assetPath">
+			<value>15 Hymn to Zagreus.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>164.11666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a3b346cc-7f6c-4b51-acb8-491971281eb5}</destination>
+		</relationship>
+	</object>
+</objects>

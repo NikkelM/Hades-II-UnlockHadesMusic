@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a014ac69-32b0-438c-85eb-e079130caf04}">
+		<property name="assetPath">
+			<value>22 The King and the Bull.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>462</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a3b346cc-7f6c-4b51-acb8-491971281eb5}</destination>
+		</relationship>
+	</object>
+</objects>
