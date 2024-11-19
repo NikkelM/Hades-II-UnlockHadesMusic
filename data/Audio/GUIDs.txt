@@ -11,7 +11,6 @@
 {f960ff2a-1407-4136-86bc-ca5d3f633290} event:/Mods/NikkelMUnlockHadesMusic/HymnToZagreus
 {05c22860-d3f1-4f90-b5d7-cfa24a587f61} event:/Mods/NikkelMUnlockHadesMusic/InTheBlood
 {c0cdae19-b74e-4da2-87a8-20ad7d5f6e1d} event:/Mods/NikkelMUnlockHadesMusic/LamentOfOrpheus
-{629b69c5-4f81-45be-a2d3-121a83fe345c} event:/Mods/NikkelMUnlockHadesMusic/LamentOfOrpheusUnderworldMix
 {1e20eb07-28cb-4b8d-9d01-a9c199c79118} event:/Mods/NikkelMUnlockHadesMusic/LastWords
 {7fffc963-0826-4f11-81c5-a3eed6818bb9} event:/Mods/NikkelMUnlockHadesMusic/MouthOfStyx
 {2c36bb06-113d-4c63-8c35-ed21f4eb94ae} event:/Mods/NikkelMUnlockHadesMusic/NoEscape

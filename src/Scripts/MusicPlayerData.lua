@@ -26,7 +26,6 @@ local songNames = {
 	"Song_Hades_EurydiceSong1",
 	"Song_Hades_EurydiceSong1Solo",
 	"Song_Hades_OrpheusSong1",
-	"Song_Hades_OrpheusSong1Underworld",
 	"Song_Hades_OrpheusSong2",
 	"Song_Hades_BossFightMusic",
 	"Song_Hades_TheUnseenOnes",
@@ -223,14 +222,6 @@ local songWorldUpgradeData = {
 		Name = "Song_Hades_OrpheusSong1",
 		InheritFrom = { "DefaultSongItem" },
 		TrackName = "{c0cdae19-b74e-4da2-87a8-20ad7d5f6e1d}",
-		Cost = {
-			CosmeticsPoints = 0,
-		},
-	},
-	Song_Hades_OrpheusSong1Underworld = {
-		Name = "Song_Hades_OrpheusSong1Underworld",
-		InheritFrom = { "DefaultSongItem" },
-		TrackName = "{629b69c5-4f81-45be-a2d3-121a83fe345c}",
 		Cost = {
 			CosmeticsPoints = 0,
 		},
