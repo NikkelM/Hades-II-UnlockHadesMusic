@@ -1,10 +1,14 @@
 # Changelog
 
-## v0.1.0
+## v0.2.0
 
 <!--Releasenotes start-->
-- Using the new bank loading functionality, adds all songs from the Hades OST.
+- Added song name and description localization for all subtitled languages supported in the first Hades game.
 <!--Releasenotes end-->
+
+## v0.1.0
+
+- Using the new bank loading functionality, adds all songs from the Hades OST.
 
 ## v0.0.1
 
