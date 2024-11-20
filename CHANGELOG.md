@@ -1,10 +1,15 @@
 # Changelog
 
-## v0.2.0
+## v0.3.0
 
 <!--Releasenotes start-->
-- Added song name and description localization for all subtitled languages supported in the first Hades game.
+- Updated the start and end times of some tracks to reduce downtime.
+- Adjusted volume of some tracks to be more consistent.
 <!--Releasenotes end-->
+
+## v0.2.0
+
+- Added song name and description localization for all subtitled languages supported in the first Hades game.
 
 ## v0.1.0
 
