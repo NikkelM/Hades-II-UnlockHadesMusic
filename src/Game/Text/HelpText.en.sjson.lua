@@ -152,7 +152,7 @@ local newData = {
   },
   {
     Id = "MusicMusicPlayerEurydiceSong1SoloMusicPlayer",
-    DisplayName = "Hades - Good Riddance (Eurydice Solo)",
+    DisplayName = "Hades - Good Riddance (Eurydice)",
     Description = "A rousing celebration of the afterlife, sung by the muse herself."
   },
 }
