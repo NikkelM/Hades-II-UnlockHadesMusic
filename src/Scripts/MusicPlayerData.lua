@@ -259,6 +259,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer",
