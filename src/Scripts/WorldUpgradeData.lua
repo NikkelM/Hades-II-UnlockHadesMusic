@@ -25,6 +25,15 @@ local newWorldUpgradeData = {
 			}
 		},
 
+		-- Force the voiceline that references blood and darkness, as it fits the family/darkness theme
+		IncantationVoiceLines =
+		{
+			{
+				PreLineWait = 0.3,
+				{ Cue = "/VO/Melinoe_1075", Text = "{#Emph}By blood and darkness, let my will be done!" },
+			},
+		},
+
 		PostRevealVoiceLines =
 		{
 			PreLineWait = 0.55,
