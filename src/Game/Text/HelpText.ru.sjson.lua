@@ -7,8 +7,6 @@ local order = {
   "Description"
 }
 
--- For a DisplayName, 42 characters reaches pretty much the far right
--- It's a bit too much even, as the "unread" marker overlaps the text
 local newData = {
   {
     Id = "MusicMusicPlayerMainThemeMusicPlayer",
