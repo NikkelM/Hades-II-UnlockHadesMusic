@@ -157,11 +157,11 @@ local newData = {
   {
     Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic",
     DisplayName = "Memories of Orpheus",
-    Description = "Allow the {$Keywords.MusicPlayer} to perform musical pieces originally created by Orpheus."
+    Description = "Allow the {$Keywords.MusicPlayer} to perform musical pieces originally created by Orpheus and enjoyed in the House of Hades."
   },
   {
     Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic_Flavor",
-    Description = "Though Orpheus cannot be here with us, his music may."
+    Description = "Though Orpheus cannot be here with us, his music may. This way, you can feel closer to your lost family."
   }
 }
 

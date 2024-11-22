@@ -7,8 +7,8 @@ local newWorldUpgradeData = {
 		Icon = "GUI\\Screens\\CriticalItemShop\\Icons\\cauldron_bard",
 		Cost =
 		{
-			CosmeticsPoints = 0,
-			-- PlantGLotus = 2,
+			Mixer6Common = 1,
+			PlantGLotus = 2,
 		},
 
 		GameStateRequirements =
