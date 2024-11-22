@@ -38,6 +38,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerHadesThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerHadesThemeMusicPlayer",
@@ -46,6 +51,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer",
@@ -54,6 +64,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesResetMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesResetMusicPlayer",
@@ -62,6 +77,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer",
@@ -70,6 +90,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer",
@@ -78,6 +103,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer",
@@ -86,6 +116,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer",
@@ -94,6 +129,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer",
@@ -102,6 +142,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel3MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel3MusicPlayer",
@@ -110,6 +155,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer",
@@ -118,6 +168,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer",
@@ -126,6 +181,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer",
@@ -134,6 +194,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer",
@@ -142,6 +207,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer",
@@ -150,6 +220,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
@@ -158,6 +233,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer",
@@ -166,6 +246,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer",
@@ -182,6 +267,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer",
@@ -190,6 +280,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration1MusicPlayer",
@@ -198,6 +293,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer",
@@ -206,6 +306,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer",
@@ -214,6 +319,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer",
@@ -222,6 +332,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer",
@@ -230,6 +345,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer",
@@ -238,6 +358,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer",
@@ -246,6 +371,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer",
@@ -254,6 +384,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer",
@@ -262,6 +397,11 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 0,
 		},
+		GameStateRequirements = {
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
+			},
+		}
 	}
 }
 
