@@ -9,147 +9,147 @@ local order = {
 
 local newData = {
   {
-    Id = "MusicMusicPlayerMainThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
     DisplayName = "Hadès - Sans Issue",
     Description = "Thème entraînant créé pour le dieu des morts."
   },
   {
-    Id = "MusicMusicPlayerHadesThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerHadesThemeMusicPlayer",
     DisplayName = "Hadès - La Mort et Moi",
     Description = "Morceau court et triste que le Seigneur Hadès apprécie beaucoup."
   },
   {
-    Id = "MusicMusicPlayerMusicExploration4MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer",
     DisplayName = "Hadès - La Maison d’Hadès",
     Description = "Mélodie discrète autorisée dans la Maison d’Hadès."
   },
   {
-    Id = "MusicMusicPlayerMusicHadesResetMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesResetMusicPlayer",
     DisplayName = "Hadès - Loin du Tartare",
     Description = "S’il existait une sortie, ce morceau en serait le thème musical."
   },
   {
-    Id = "MusicMusicPlayerMusicHadesReset2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer",
     DisplayName = "Hadès - La Manière Forte",
     Description = "Suggère un voyage rapide et tumultueux le long du Styx."
   },
   {
-    Id = "MusicMusicPlayerMusicHadesReset3MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer",
     DisplayName = "Hadès - Embouchure du Styx",
     Description = "L’obscurité sinistre du Tartare, sous forme musicale."
   },
   {
-    Id = "MusicMusicPlayerMusicTartarus4MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer",
     DisplayName = "Hadès - Le Fouet des Érinyes",
     Description = "En hommage aux redoutables Érinyes."
   },
   {
-    Id = "MusicMusicPlayerMusicAsphodel1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer",
     DisplayName = "Hadès - Traversée de l’Asphodèle",
     Description = "Évoque des prairies autrefois luxuriantes, aujourd'hui ravagées par les flammes."
   },
   {
-    Id = "MusicMusicPlayerMusicAsphodel2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer",
     DisplayName = "Hadès - Fleuve de Flamme",
     Description = "Le terrible fleuve Phlégéthon a inspiré la composition de ce morceau."
   },
   {
-    Id = "MusicMusicPlayerMusicAsphodel3MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel3MusicPlayer",
     DisplayName = "Hadès - Champs des Âmes",
     Description = "Pour ceux ayant péri et résidant désormais dans les prés de l'Asphodèle."
   },
   {
-    Id = "MusicMusicPlayerMusicElysium1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer",
     DisplayName = "Hadès - Le Roi et le Taureau",
     Description = "Morceau dédié au Roi d’Athènes et au Taureau de Minos."
   },
   {
-    Id = "MusicMusicPlayerMusicElysium2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer",
     DisplayName = "Hadès - Les Exaltés",
     Description = "En hommage aux grands héros de l’Élysée."
   },
   {
-    Id = "MusicMusicPlayerMusicElysium3MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer",
     DisplayName = "Hadès - La Fureur des Myrmidons",
     Description = "Commémore une célèbre tribu de guerriers."
   },
   {
-    Id = "MusicMusicPlayerMusicStyx1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer",
     DisplayName = "Hadès - Aux Portes des Enfers",
     Description = "Morceau dédié aux intrus du Temple du Styx."
   },
   {
-    Id = "MusicMusicPlayerBossFightMusicMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer",
     DisplayName = "Hadès - Dieu des Morts",
     Description = "Morceau commandé il y a longtemps en l’honneur du Seigneur Hadès."
   },
   {
-    Id = "MusicMusicPlayerTheUnseenOnesMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
     DisplayName = "Hadès - Les Occultés",
     Description = "Morceau banni car contenant trop de notes par seconde."
   },
   {
-    Id = "MusicMusicPlayerCharonShopThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer",
     DisplayName = "Hadès - Dernières Dépenses",
     Description = "Morceau commandé expressément pour le Nocher Stygien."
   },
   {
-    Id = "MusicMusicPlayerCharonFightThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer",
     DisplayName = "Hadès - Dernières Dépenses (Prix Fort)",
     Description = "Morceau commandé expressément pour le Nocher Stygien."
   },
   {
-    Id = "MusicMusicPlayerChaosThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer",
     DisplayName = "Hadès - Chaos Primordial",
     Description = "Ode au créateur, bien souvent oublié, de toute chose."
   },
   {
-    Id = "MusicMusicPlayerThanatosThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer",
     DisplayName = "Hadès - Derniers Mots",
     Description = "Proclame l’arrivée de Thanatos, incarnation de la mort."
   },
   {
-    Id = "MusicMusicPlayerMusicExploration1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration1MusicPlayer",
     DisplayName = "Hadès - Ombres Misérables",
     Description = "À la mémoire des vies éteintes et envoyées dans ce royaume."
   },
   {
-    Id = "MusicMusicPlayerMusicExploration2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer",
     DisplayName = "Hadès - Les Décharnés",
     Description = "En l’honneur des âmes courroucées servant le Seigneur Hadès."
   },
   {
-    Id = "MusicMusicPlayerMusicExploration3MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer",
     DisplayName = "Hadès - Du Haut de l’Olympe",
     Description = "Morceau solennel reflétant la séparation entre les royaumes."
   },
   {
-    Id = "MusicMusicPlayerOrpheusSong1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer",
     DisplayName = "Hadès - Complainte d’Orphée",
     Description = "Les regrets du musicien de la cour sont exprimés par le biais de cette chanson."
   },
   {
-    Id = "MusicMusicPlayerOrpheusSong2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer",
     DisplayName = "Hadès - Ode à Zagreus",
     Description = "Ballade évoquant les exploits du Prince des Enfers."
   },
   {
-    Id = "MusicMusicPlayerEurydiceSong1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer",
     DisplayName = "Hadès - Bon Débarras",
     Description = "Une célébration entraînante de la vie après la mort."
   },
   {
-    Id = "MusicMusicPlayerPersephoneThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer",
     DisplayName = "Hadès - Sur la Côte",
     Description = "Un morceau exotique joué avec des instruments provenant de la surface."
   },
   {
-    Id = "MusicMusicPlayerEndThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer",
     DisplayName = "Hadès - Dans le Sang",
     Description = "Duo populaire évoquant le foyer et la famille."
   },
   {
-    Id = "MusicMusicPlayerEurydiceSong1SoloMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer",
     DisplayName = "Hadès - Bon Débarras (Eurydice)",
     Description = "Une célébration entraînante de la vie après la mort, chantée par la muse elle-même."
   },
