@@ -6,7 +6,7 @@ schemaVersion = "0.0.1"
 namespace = "NikkelM"
 name = "Hades_OST_for_the_Music_Maker"
 versionNumber = "0.2.0"
-description = "Adds the Hades OST as songs to the Music Maker."
+description = "Adds music from the Hades soundtrack as unlockable songs to the Music Maker."
 websiteUrl = "https://github.com/NikkelM/Hades-II-UnlockHadesMusic"
 containsNsfwContent = false
 

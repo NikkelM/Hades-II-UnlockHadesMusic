@@ -65,6 +65,7 @@ local function on_ready()
 	import 'Scripts/LoadSoundBanks.lua'
 
 	-- Localizations
+	-- Some languages are missing, as they did not exist for Hades
 	import 'Game/Text/HelpText.de.sjson.lua'
 	import 'Game/Text/HelpText.en.sjson.lua'
 	import 'Game/Text/HelpText.es.sjson.lua'
