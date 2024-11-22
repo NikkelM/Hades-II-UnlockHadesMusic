@@ -39,23 +39,23 @@ config = chalk.auto 'config.lua'
 public.config = config -- so other mods can access our config
 
 -- For debugging
--- function printTable(t, indent)
--- 	if type(t) ~= "table" then
--- 		print("Error: Expected a table, got " .. type(t))
--- 		return
--- 	end
+function printTable(t, indent)
+	if type(t) ~= "table" then
+		print("Error: Expected a table, got " .. type(t))
+		return
+	end
 
--- 	indent = indent or 0
--- 	local formatting = string.rep("  ", indent)
--- 	for k, v in pairs(t) do
--- 		if type(v) == "table" then
--- 			print(formatting .. k .. ":")
--- 			printTable(v, indent + 1)
--- 		else
--- 			print(formatting .. k .. ": " .. tostring(v))
--- 		end
--- 	end
--- end
+	indent = indent or 0
+	local formatting = string.rep("  ", indent)
+	for k, v in pairs(t) do
+		if type(v) == "table" then
+			print(formatting .. k .. ":")
+			printTable(v, indent + 1)
+		else
+			print(formatting .. k .. ": " .. tostring(v))
+		end
+	end
+end
 
 local function on_ready()
 	-- what to do when we are ready, but not re-do on reload.
@@ -63,6 +63,8 @@ local function on_ready()
 
 	import 'Scripts/MusicPlayerData.lua'
 	import 'Scripts/LoadSoundBanks.lua'
+	import 'Scripts/WorldUpgradeData.lua'
+	import 'Scripts/GhostAdminData_Items.lua'
 
 	-- Localizations
 	-- Some languages are missing, as they did not exist for Hades

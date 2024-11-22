@@ -7,160 +7,168 @@ local order = {
   "Description"
 }
 
--- For a DisplayName, 42 characters reaches pretty much the far right
--- It's a bit too much even, as the "unread" marker overlaps the text
 local newData = {
   {
-    Id = "MusicMusicPlayerMainThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
     DisplayName = "Hades - No Escape",
     Description = "A rousing theme created for the god of the dead."
   },
   {
-    Id = "MusicMusicPlayerHadesThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerHadesThemeMusicPlayer",
     DisplayName = "Hades - Death and I",
     Description = "A brief and frankly unhappy piece Lord Hades enjoys."
   },
   {
-    Id = "MusicMusicPlayerMusicExploration4MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer",
     DisplayName = "Hades - The House of Hades",
     Description = "Understated theme permitted in the House of Hades."
   },
   {
-    Id = "MusicMusicPlayerMusicHadesResetMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesResetMusicPlayer",
     DisplayName = "Hades - Out of Tartarus",
     Description = "Were there a way out, this piece would be about it."
   },
   {
-    Id = "MusicMusicPlayerMusicHadesReset2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer",
     DisplayName = "Hades - The Painful Way",
     Description = "About a quick, turbulent trip down the River Styx."
   },
   {
-    Id = "MusicMusicPlayerMusicHadesReset3MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer",
     DisplayName = "Hades - Mouth of Styx",
     Description = "The hideous gloom of Tartarus in musical form."
   },
   {
-    Id = "MusicMusicPlayerMusicTartarus4MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer",
     DisplayName = "Hades - Scourge of the Furies",
     Description = "In tribute to the well-feared Erinyes."
   },
   {
-    Id = "MusicMusicPlayerMusicAsphodel1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer",
     DisplayName = "Hades - Through Asphodel",
     Description = "About a once-lush meadows now awash in flame."
   },
   {
-    Id = "MusicMusicPlayerMusicAsphodel2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer",
     DisplayName = "Hades - River of Flame",
     Description = "The feared River Phlegethon inspired this piece."
   },
   {
-    Id = "MusicMusicPlayerMusicAsphodel3MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel3MusicPlayer",
     DisplayName = "Hades - Field of Souls",
     Description = "For those who passed and now reside in Asphodel."
   },
   {
-    Id = "MusicMusicPlayerMusicElysium1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer",
     DisplayName = "Hades - The King and the Bull",
     Description = "Dedicated to the King of Athens and the Minoan Bull."
   },
   {
-    Id = "MusicMusicPlayerMusicElysium2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer",
     DisplayName = "Hades - The Exalted",
     Description = "Tribute to the mighty heroes of Elysium."
   },
   {
-    Id = "MusicMusicPlayerMusicElysium3MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer",
     DisplayName = "Hades - Rage of the Myrmidons",
     Description = "Commemorates a famous warrior tribe."
   },
   {
-    Id = "MusicMusicPlayerMusicStyx1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer",
     DisplayName = "Hades - Gates of Hell",
     Description = "Dedicated to those trespassing in the Temple of Styx."
   },
   {
-    Id = "MusicMusicPlayerBossFightMusicMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer",
     DisplayName = "Hades - God of the Dead",
     Description = "Commissioned long ago in honor of Lord Hades."
   },
   {
-    Id = "MusicMusicPlayerTheUnseenOnesMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
     DisplayName = "Hades - The Unseen Ones",
     Description = "Banned for containing too many music notes per second."
   },
   {
-    Id = "MusicMusicPlayerCharonShopThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer",
     DisplayName = "Hades - Final Expense",
     Description = "Commissioned expressly for the Stygian Boatman."
   },
   {
-    Id = "MusicMusicPlayerCharonFightThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer",
     DisplayName = "Hades - Final Expense (Payback Mix)",
     Description = "Commissioned expressly for the Stygian Boatman."
   },
   {
-    Id = "MusicMusicPlayerChaosThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer",
     DisplayName = "Hades - Primordial Chaos",
     Description = "Ode to the oft-forgotten originator of all things."
   },
   {
-    Id = "MusicMusicPlayerThanatosThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer",
     DisplayName = "Hades - Last Words",
     Description = "Heralds the arrival of Thanatos, incarnate of death."
   },
   {
-    Id = "MusicMusicPlayerMusicExploration1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration1MusicPlayer",
     DisplayName = "Hades - Wretched Shades",
     Description = "In memory of lives snuffed out and sent to this realm."
   },
   {
-    Id = "MusicMusicPlayerMusicExploration2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer",
     DisplayName = "Hades - The Bloodless",
     Description = "In testament to the wrathful souls serving Lord Hades."
   },
   {
-    Id = "MusicMusicPlayerMusicExploration3MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer",
     DisplayName = "Hades - From Olympus",
     Description = "Solemn piece reflecting the divide between realms."
   },
   {
-    Id = "MusicMusicPlayerOrpheusSong1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer",
     DisplayName = "Hades - Lament of Orpheus",
     Description = "The court-musician's regrets captured in song form."
   },
   {
-    Id = "MusicMusicPlayerOrpheusSong2MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer",
     DisplayName = "Hades - Hymn to Zagreus",
     Description = "Ballad of the Prince of the Underworld's exploits."
   },
   {
-    Id = "MusicMusicPlayerEurydiceSong1MusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer",
     DisplayName = "Hades - Good Riddance",
     Description = "A rousing celebration of the afterlife."
   },
   {
-    Id = "MusicMusicPlayerPersephoneThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer",
     DisplayName = "Hades - On the Coast",
     Description = "Exotic piece uses instruments from the surface world."
   },
   {
-    Id = "MusicMusicPlayerEndThemeMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer",
     DisplayName = "Hades - In the Blood",
     Description = "Popular duet reflects on home and family."
   },
   {
-    Id = "MusicMusicPlayerEurydiceSong1SoloMusicPlayer",
+    Id = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer",
     DisplayName = "Hades - Good Riddance (Eurydice)",
     Description = "A rousing celebration of the afterlife, sung by the muse herself."
   },
+  -- New incantation
+  {
+    Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic",
+    DisplayName = "Recovery of Orpheus' Scriptures",
+    Description = "Allow the {$Keywords.MusicPlayer} to perform musical pieces originally created by Orpheus and enjoyed in the House of Hades."
+  },
+  {
+    Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic_Flavor",
+    Description = "Though Orpheus cannot be here with us, his music may. This way, you can feel closer to your lost family and home."
+  }
 }
 
 local helpTextFile = rom.path.combine(rom.paths.Content, 'Game/Text/en/HelpText.en.sjson')
 
 sjson.hook(helpTextFile, function(data)
-  for _, newSong in ipairs(newData) do
-    table.insert(data.Texts, sjson.to_object(newSong, order))
+  for _, newHelpText in ipairs(newData) do
+    table.insert(data.Texts, sjson.to_object(newHelpText, order))
   end
 end)
