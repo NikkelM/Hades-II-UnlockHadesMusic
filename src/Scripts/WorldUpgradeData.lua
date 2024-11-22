@@ -24,7 +24,19 @@ local newWorldUpgradeData = {
 				Value = 10,
 			}
 		},
+
+		PostRevealVoiceLines =
+		{
+			PreLineWait = 0.55,
+			UsePlayerSource = true,
+
+			{ Cue = "/VO/Melinoe_2603", Text = "Remnants of the past..." },
+		},
 		-- OnActivateFinishedFunctionName = "ShowCodexUpdate",
+
+		CameraFocusId = 738510,
+		PanDuration = 1.5,
+		PanHoldDuration = 2.0,
 	}
 }
 
