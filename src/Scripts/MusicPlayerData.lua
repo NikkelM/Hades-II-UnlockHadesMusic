@@ -55,7 +55,7 @@ local songWorldUpgradeData = {
 		TrackName = "{57fbe830-4207-4601-8ca1-cd69eebfa742}",
 		-- No special unlock condition, can be immediately bought
 		Cost = {
-			CosmeticsPoints = 150,
+			CosmeticsPoints = 300,
 		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer = {
@@ -72,8 +72,8 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 150,
-			PlantIShaderot = 1,
+			CosmeticsPoints = 300,
+			PlantIShaderot = 2,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesResetMusicPlayer = {
@@ -90,8 +90,8 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 150,
-			OreIMarble = 2,
+			CosmeticsPoints = 300,
+			OreIMarble = 3,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer = {
@@ -108,8 +108,8 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 150,
-			OreIMarble = 2,
+			CosmeticsPoints = 400,
+			OreIMarble = 3,
 			PlantIShaderot = 2,
 		},
 	},
@@ -127,8 +127,8 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 150,
-			PlantGCattail = 2,
+			CosmeticsPoints = 300,
+			PlantGCattail = 3,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer = {
@@ -145,8 +145,8 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 150,
-			MixerGBoss = 1,
+			CosmeticsPoints = 500,
+			MixerGBoss = 2,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer = {
@@ -161,8 +161,8 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 150,
-			MixerFBoss = 1,
+			CosmeticsPoints = 300,
+			MixerFBoss = 1
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer = {
@@ -178,7 +178,8 @@ local songWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 300,
-			MixerFBoss = 1,
+			MixerFBoss = 2,
+			PlantIPoppy = 5
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel3MusicPlayer = {
@@ -195,8 +196,9 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 150,
+			CosmeticsPoints = 300,
 			PlantHWheat = 3,
+			OreHGlassrock = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer = {
@@ -218,9 +220,9 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 150,
+			CosmeticsPoints = 500,
 			MixerPBoss = 1,
-			OrePAdamant = 1
+			OrePAdamant = 3
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer = {
@@ -235,8 +237,8 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 300,
-			PlantPOlive = 3,
+			CosmeticsPoints = 400,
+			PlantPOlive = 5,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer = {
@@ -253,8 +255,9 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 150,
+			CosmeticsPoints = 300,
 			PlantOMandrake = 3,
+			PlantODriftwood = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer = {
@@ -271,8 +274,9 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 300,
-			MixerHBoss = 1,
+			CosmeticsPoints = 500,
+			MixerHBoss = 2,
+			OreNBronze = 3
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer = {
@@ -289,8 +293,9 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 300,
-			MixerIBoss = 1,
+			CosmeticsPoints = 500,
+			MixerIBoss = 2,
+			OreIMarble = 5
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer = {
@@ -305,8 +310,10 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 300,
-			WeaponPointsRare = 1,
+			CosmeticsPoints = 500,
+			MemPointsCommon = 150,
+			MetaCardPointsCommon = 150,
+			OreFSilver = 3
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer = {
@@ -321,8 +328,9 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 150,
+			CosmeticsPoints = 300,
 			CharonPoints = 1,
+			MetaCurrency = 150
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer = {
@@ -337,8 +345,9 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 150,
+			CosmeticsPoints = 500,
 			CharonPoints = 2,
+			MetaCurrency = 300
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer = {
@@ -354,8 +363,9 @@ local songWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 300,
-			OreChaosProtoplasm = 1,
-			PlantChaosThalamus = 2
+			OreChaosProtoplasm = 2,
+			PlantChaosThalamus = 3,
+			Mixer6Common = 1
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer = {
@@ -370,8 +380,9 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 300,
-			PlantFNightshade = 6
+			CosmeticsPoints = 400,
+			PlantFNightshade = 6,
+			MetaFabric = 3
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration1MusicPlayer = {
@@ -388,7 +399,7 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 300,
+			CosmeticsPoints = 500,
 			MixerFBoss = 2
 		},
 	},
@@ -407,7 +418,8 @@ local songWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 300,
-			MixerNBoss = 1
+			MixerNBoss = 2,
+			OreNBronze = 4
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer = {
@@ -434,8 +446,8 @@ local songWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 300,
-			PlantPOlive = 3,
-			OrePAdamant = 2
+			PlantPOlive = 4,
+			OrePAdamant = 3
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer = {
@@ -450,8 +462,9 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 300,
+			CosmeticsPoints = 500,
 			MixerIBoss = 2,
+			Mixer5Common = 1
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer = {
@@ -466,9 +479,10 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 300,
+			CosmeticsPoints = 400,
 			MixerIBoss = 1,
-			MetaFabric = 3
+			MetaFabric = 3,
+			MixerShadow = 1
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer = {
@@ -483,9 +497,10 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 300,
-			MixerOBoss = 1,
-			PlantFMoly = 4
+			CosmeticsPoints = 700,
+			MixerOBoss = 2,
+			PlantFMoly = 4,
+			CardUpgradePoints = 3
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer = {
@@ -502,9 +517,9 @@ local songWorldUpgradeData = {
 			}
 		},
 		Cost = {
-			CosmeticsPoints = 300,
-			PlantPOlive = 2,
-			OrePAdamant = 1
+			CosmeticsPoints = 500,
+			PlantPOlive = 5,
+			OrePAdamant = 3
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer = {
@@ -537,9 +552,9 @@ local songWorldUpgradeData = {
 			},
 		},
 		Cost = {
-			CosmeticsPoints = 300,
+			CosmeticsPoints = 700,
 			MixerOBoss = 2,
-			PlantIPoppy = 4
+			PlantIPoppy = 5
 		},
 	}
 }
