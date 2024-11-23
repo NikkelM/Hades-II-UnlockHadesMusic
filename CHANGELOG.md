@@ -1,10 +1,11 @@
 # Changelog
 
-## v0.4.0
+## v1.0.0
 
 <!--Releasenotes start-->
+- Public release.
 - Added unlock conditions that need to be met before a song can be purchased and played.
-- Added unlock costs for each song. Yes, "In The Blood" is the most expensive, and yes, it's worth it.
+- Added unlock costs for each song.
 - Added a config option that allows immediately unlocking all songs. This is not reversible!
 <!--Releasenotes end-->
 
