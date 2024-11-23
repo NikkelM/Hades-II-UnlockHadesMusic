@@ -93,7 +93,7 @@ local newData = {
     Description = "Dedicated to those trespassing in the Temple of Styx."
   },
   {
-    -- Meet Hades five times (in the future - free him, if ever possible in the game)
+    -- Meet Hades ten times (in the future - free him, if ever possible in the game)
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer",
     DisplayName = "Hades - God of the Dead",
     Description = "Commissioned long ago in honor of Lord Hades."
@@ -135,7 +135,7 @@ local newData = {
     Description = "In memory of lives snuffed out and sent to this realm."
   },
   {
-    -- Entered Ephyra five times
+    -- Met Polyphemus five times
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer",
     DisplayName = "Hades - The Bloodless",
     Description = "In testament to the wrathful souls serving Lord Hades."
@@ -165,7 +165,7 @@ local newData = {
     Description = "A rousing celebration of the afterlife."
   },
   {
-    -- Get to Olympus first room once
+    -- Get to Olympus once
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer",
     DisplayName = "Hades - On the Coast",
     Description = "Exotic piece uses instruments from the surface world."

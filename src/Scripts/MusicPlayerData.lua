@@ -46,6 +46,13 @@ ModsNikkelMUnlockHadesMusicDefaultSongItem = {
 	}
 }
 
+-- Defeating an enemy:
+-- {
+-- Path = { "GameState", "EnemyKills", "InfestedCerberus" },
+-- Comparison = ">=",
+-- Value = 1,
+-- },
+
 local songWorldUpgradeData = {
 	ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
@@ -63,12 +70,13 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{c1f44b16-95c0-48a5-a2e7-3fa0916e08a0}",
-		-- Meet Hades once (any of the three triggers, depending on having met/beat/not met Chronos yet)
+		-- Meet Hades once
 		GameStateRequirements = {
 			Append = true,
 			{
-				Path = { "GameState", "TextLinesRecord" },
-				HasAny = { "HadesFirstMeeting", "HadesFirstMeeting_B", "HadesFirstMeeting_C" },
+				Path = { "GameState", "UseRecord", "NPC_Hades_Field_01" },
+				Comparison = ">",
+				Value = 1,
 			},
 		},
 	},
@@ -77,18 +85,42 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{f00ef76c-1c18-47d2-9bf3-b883bc15e8ef}",
 		-- Enter Tartarus five times
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "I_Intro" },
+				Comparison = ">=",
+				Value = 5,
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{2393a5bc-9662-4002-913e-83b575d1c056}",
 		-- Enter Tartarus ten times
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "I_Intro" },
+				Comparison = ">=",
+				Value = 10,
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{7fffc963-0826-4f11-81c5-a3eed6818bb9}",
 		-- Enter Oceanus ten times (river/water related)
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "G_Intro" },
+				Comparison = ">=",
+				Value = 10,
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer",
@@ -125,6 +157,14 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{b0533fd9-9980-4fc6-b0a7-23813f2cda1c}",
 		-- Enter Mourning Fields ten times
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "H_Intro" },
+				Comparison = ">=",
+				Value = 10,
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer",
@@ -155,12 +195,28 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{aff7e6d5-24ca-4aec-b209-be29d626a427}",
 		-- Meet Cerberus ten times
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "H_Boss01" },
+				Comparison = ">=",
+				Value = 10,
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{fc71b797-75db-43af-8cc0-f50fdacb5dbc}",
-		-- Meet Hades five times (in the future - free him, if ever possible in the game)
+		-- Meet Hades ten times (in the future - free him, if ever possible in the game)
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "UseRecord", "NPC_Hades_Field_01" },
+				Comparison = ">=",
+				Value = 10,
+			},
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
@@ -221,12 +277,28 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{eb3e0bed-2912-4c2e-af4e-3860fae954e9}",
 		-- Reached Hecate ten times
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "F_Boss01" },
+				Comparison = ">=",
+				Value = 10,
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{b4191f68-8b2a-4e15-9c94-5d1a5c52bc85}",
-		-- Entered Ephyra five times
+		-- Met Polyphemus five times
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "N_Boss01" },
+				Comparison = ">=",
+				Value = 5,
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer",
@@ -256,7 +328,15 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{9155f02e-dbb8-4f3b-93c6-bac757bb17f5}",
-		-- Get to Olympus first room once
+		-- Get to Olympus once
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "P_Intro" },
+				Comparison = ">=",
+				Value = 1,
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer",
