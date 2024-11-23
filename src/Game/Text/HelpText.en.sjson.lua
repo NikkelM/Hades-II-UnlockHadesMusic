@@ -177,7 +177,7 @@ local newData = {
     Description = "Popular duet reflects on home and family."
   },
   {
-    -- Echo Gift level four
+		-- Echo Gift level three (four not yet available?)
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer",
     DisplayName = "Hades - Good Riddance (Eurydice)",
     Description = "A rousing celebration of the afterlife, sung by the muse herself."
