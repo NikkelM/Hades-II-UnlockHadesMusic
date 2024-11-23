@@ -54,3 +54,13 @@ for worldUpgradeName, worldUpgradeData in pairs(newWorldUpgradeData) do
 	game.ProcessDataInheritance(worldUpgradeData, game.WorldUpgradeData)
 	game.WorldUpgradeData[worldUpgradeName] = worldUpgradeData
 end
+
+-- If the config option is enabled, unlock all world upgrades immediately (i.e., the incantation will be performed)
+if config.unlockEverything then
+	modutil.mod.Path.Wrap("DeathAreaRoomTransition", function(base, source, args)
+		for worldUpgradeName, _ in pairs(newWorldUpgradeData) do
+			game.AddWorldUpgrade(worldUpgradeName)
+		end
+		base(source, args)
+	end)
+end
