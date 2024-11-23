@@ -46,13 +46,6 @@ ModsNikkelMUnlockHadesMusicDefaultSongItem = {
 	}
 }
 
--- Defeating an enemy:
--- {
--- Path = { "GameState", "EnemyKills", "InfestedCerberus" },
--- Comparison = ">=",
--- Value = 1,
--- },
-
 local songWorldUpgradeData = {
 	ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
