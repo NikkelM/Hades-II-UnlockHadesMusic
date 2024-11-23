@@ -99,7 +99,7 @@ local newData = {
     Description = "Commissioned long ago in honor of Lord Hades."
   },
   {
-    -- Beat the underworld with at least 20 fear
+    -- Unlocked the first Skelly statue
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
     DisplayName = "Hades - The Unseen Ones",
     Description = "Banned for containing too many music notes per second."

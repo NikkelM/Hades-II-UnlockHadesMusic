@@ -127,6 +127,14 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{eb9bfcbd-fdae-4f68-9ed2-531c6168dd6d}",
 		-- Beat Scylla five times
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "EnemyKills", "Scylla" },
+				Comparison = ">=",
+				Value = 5,
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer",
@@ -171,6 +179,19 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{957caeee-56d0-4ae1-a872-81e01e6fea88}",
 		-- Meet Prometheus (King) and beat Talos (Bull)
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "P_Boss01" },
+				Comparison = ">=",
+				Value = 1,
+			},
+			{
+				Path = { "GameState", "EnemyKills", "Talos" },
+				Comparison = ">=",
+				Value = 1,
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer",
@@ -189,6 +210,14 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{e025788e-6814-4bfe-9b73-5be5d3465572}",
 		-- Beat Charbydis five times
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "EnemyKills", "Charybdis" },
+				Comparison = ">=",
+				Value = 5,
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer",
@@ -222,7 +251,13 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{50ebf4d6-4c76-416f-9c32-33787f99f27e}",
-		-- Beat the underworld with at least 20 fear
+		-- Unlocked the first Skelly statue
+		GameStateRequirements = {
+			Append = true,
+			{
+				PathTrue = { "GameState", "TextLinesRecord", "TrophyQuestComplete01" },
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer",
@@ -305,24 +340,59 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{d74e85b5-da0d-4758-a3d7-2d468b531bf3}",
 		-- Have all Olympian Keepsakes
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "GiftPresentation" },
+				HasAll =
+				{
+					"ForceZeusBoonKeepsake",
+					"ForceHeraBoonKeepsake",
+					"ForcePoseidonBoonKeepsake",
+					"ForceApolloBoonKeepsake",
+					"ForceDemeterBoonKeepsake",
+					"ForceAphroditeBoonKeepsake",
+					"ForceHephaestusBoonKeepsake",
+					"ForceHestiaBoonKeepsake",
+				},
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{c0cdae19-b74e-4da2-87a8-20ad7d5f6e1d}",
 		-- Hypnos flashback
+		GameStateRequirements = {
+			Append = true,
+			{
+				PathTrue = { "GameState", "TextLinesRecord", "HypnosDreamMeeting01" },
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{f960ff2a-1407-4136-86bc-ca5d3f633290}",
 		-- Hades flashback
+		GameStateRequirements = {
+			Append = true,
+			{
+				PathTrue = { "GameState", "TextLinesRecord", "ChronosNightmare01" },
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{82cccfdf-8990-4ece-b3c3-52e549b91d5e}",
 		-- Reunited Echo and Narcissus (they have a conversation in the Mourning Fields)
+		GameStateRequirements = {
+			Append = true,
+			{
+				PathTrue = { "GameState", "TextLinesRecord", "NarcissusWithEcho01" },
+			},
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer",
@@ -343,6 +413,12 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{05c22860-d3f1-4f90-b5d7-cfa24a587f61}",
 		-- Hades flashback
+		GameStateRequirements = {
+			Append = true,
+			{
+				PathTrue = { "GameState", "TextLinesRecord", "ChronosNightmare01" },
+			}
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer",
