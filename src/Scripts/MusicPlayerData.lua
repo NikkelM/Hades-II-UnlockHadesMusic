@@ -46,9 +46,6 @@ ModsNikkelMUnlockHadesMusicDefaultSongItem = {
 	}
 }
 
--- For gifts:
--- { "GameState", "TextLinesRecord", "NemesisGift06" },
-
 local songWorldUpgradeData = {
 	ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
