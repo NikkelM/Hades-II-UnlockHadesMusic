@@ -17,12 +17,12 @@ local newWorldUpgradeData = {
 				Path = { "GameState", "WorldUpgradesAdded" },
 				HasAll = { "WorldUpgradeMusicPlayer" },
 			},
-			-- {
-			-- 	Path = { "GameState", "WorldUpgradesAdded" },
-			-- 	CountOf = game.ScreenData.MusicPlayer.Songs,
-			-- 	Comparison = ">=",
-			-- 	Value = 5,
-			-- }
+			{
+				Path = { "GameState", "WorldUpgradesAdded" },
+				CountOf = game.ScreenData.MusicPlayer.Songs,
+				Comparison = ">=",
+				Value = 7,
+			}
 		},
 
 		-- Force the voiceline that references blood and darkness, as it fits the family/darkness theme
