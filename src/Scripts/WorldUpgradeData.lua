@@ -41,7 +41,8 @@ local newWorldUpgradeData = {
 
 			{ Cue = "/VO/Melinoe_2603", Text = "Remnants of the past..." },
 		},
-		-- OnActivateFinishedFunctionName = "ShowCodexUpdate",
+		OnActivateFinishedFunctionName = "AddWorldUpgrade",
+		OnActivateFinishedFunctionArgs = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
 
 		CameraFocusId = 738510,
 		PanDuration = 1.5,

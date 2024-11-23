@@ -50,6 +50,7 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{2c36bb06-113d-4c63-8c35-ed21f4eb94ae}",
+		-- No cost - is unlocked with the incantation
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerHadesThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerHadesThemeMusicPlayer",
