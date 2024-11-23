@@ -17,7 +17,7 @@ It will unlock after you own enough other songs.
 
 ![Hades OST for the Music Maker - Perform the Incantation](https://github.com/user-attachments/assets/6274cada-738a-4ce7-ac7f-68a8ede3241b)
 
-### I only see a few songs in the Music Maker screen? Where is ___?
+### I only see a few songs in the Music Maker screen. Where is ___?
 
 Not all songs are immediately available for purchase.
 Continue playing the game to unlock more songs.
