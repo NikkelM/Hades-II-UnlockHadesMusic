@@ -39,10 +39,6 @@ ModsNikkelMUnlockHadesMusicDefaultSongItem = {
 		{
 			PathTrue = { "GameState", "WorldUpgradesAdded", "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic" },
 		},
-	},
-	-- This cannot be appended, only overwritten by other songs
-	Cost = {
-		CosmeticsPoints = 150,
 	}
 }
 
@@ -58,6 +54,9 @@ local songWorldUpgradeData = {
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{57fbe830-4207-4601-8ca1-cd69eebfa742}",
 		-- No special unlock condition, can be immediately bought
+		Cost = {
+			CosmeticsPoints = 150,
+		}
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer",
@@ -72,6 +71,10 @@ local songWorldUpgradeData = {
 				Value = 1,
 			},
 		},
+		Cost = {
+			CosmeticsPoints = 150,
+			PlantIShaderot = 1,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesResetMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesResetMusicPlayer",
@@ -85,7 +88,11 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 5,
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 150,
+			OreIMarble = 2,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer",
@@ -99,7 +106,12 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 10,
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 150,
+			OreIMarble = 2,
+			PlantIShaderot = 2,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer",
@@ -113,7 +125,11 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 10,
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 150,
+			PlantGCattail = 2,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer",
@@ -127,7 +143,11 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 5,
 			},
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 150,
+			MixerGBoss = 1,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer",
@@ -140,6 +160,10 @@ local songWorldUpgradeData = {
 				PathTrue = { "GameState", "TextLinesRecord", "HestiaGift02" },
 			},
 		},
+		Cost = {
+			CosmeticsPoints = 150,
+			MixerFBoss = 1,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer",
@@ -151,6 +175,10 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "HestiaGift04" },
 			},
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			MixerFBoss = 1,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel3MusicPlayer = {
@@ -165,7 +193,11 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 10,
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 150,
+			PlantHWheat = 3,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer",
@@ -184,7 +216,12 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 1,
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 150,
+			MixerPBoss = 1,
+			OrePAdamant = 1
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer",
@@ -196,6 +233,10 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "DionysusGift04" },
 			},
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			PlantPOlive = 3,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer = {
@@ -210,7 +251,11 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 5,
 			},
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 150,
+			PlantOMandrake = 3,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer",
@@ -224,7 +269,11 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 10,
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			MixerHBoss = 1,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer",
@@ -239,6 +288,10 @@ local songWorldUpgradeData = {
 				Value = 10,
 			},
 		},
+		Cost = {
+			CosmeticsPoints = 300,
+			MixerIBoss = 1,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
@@ -250,7 +303,11 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "TrophyQuestComplete01" },
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			WeaponPointsRare = 1,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer",
@@ -262,6 +319,10 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "CharonGift02" },
 			},
+		},
+		Cost = {
+			CosmeticsPoints = 150,
+			CharonPoints = 1,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer = {
@@ -275,6 +336,10 @@ local songWorldUpgradeData = {
 				PathTrue = { "GameState", "TextLinesRecord", "CharonGift04" },
 			},
 		},
+		Cost = {
+			CosmeticsPoints = 150,
+			CharonPoints = 2,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer",
@@ -287,6 +352,11 @@ local songWorldUpgradeData = {
 				PathTrue = { "GameState", "TextLinesRecord", "ChaosGift04" },
 			},
 		},
+		Cost = {
+			CosmeticsPoints = 300,
+			OreChaosProtoplasm = 1,
+			PlantChaosThalamus = 2
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer",
@@ -298,6 +368,10 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "MorosGift04" },
 			},
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			PlantFNightshade = 6
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration1MusicPlayer = {
@@ -312,7 +386,11 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 10,
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			MixerFBoss = 2
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer",
@@ -326,7 +404,11 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 5,
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			MixerNBoss = 1
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer",
@@ -349,7 +431,12 @@ local songWorldUpgradeData = {
 					"ForceHestiaBoonKeepsake",
 				},
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			PlantPOlive = 3,
+			OrePAdamant = 2
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer",
@@ -361,7 +448,11 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "HypnosDreamMeeting01" },
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			MixerIBoss = 2,
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer",
@@ -373,7 +464,12 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "ChronosNightmare01" },
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			MixerIBoss = 1,
+			MetaFabric = 3
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer",
@@ -385,7 +481,12 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "NarcissusWithEcho01" },
 			},
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			MixerOBoss = 1,
+			PlantFMoly = 4
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer",
@@ -399,7 +500,12 @@ local songWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 1,
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			PlantPOlive = 2,
+			OrePAdamant = 1
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer",
@@ -411,7 +517,13 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "ChronosNightmare01" },
 			}
-		}
+		},
+		Cost = {
+			CosmeticsPoints = 800,
+			MixerIBoss = 2,
+			PlantHMyrtle = 5,
+			SuperGiftPoints = 2
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer",
@@ -423,6 +535,11 @@ local songWorldUpgradeData = {
 			{
 				PathTrue = { "GameState", "TextLinesRecord", "EchoGift03" },
 			},
+		},
+		Cost = {
+			CosmeticsPoints = 300,
+			MixerOBoss = 2,
+			PlantIPoppy = 4
 		},
 	}
 }
