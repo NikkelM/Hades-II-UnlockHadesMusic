@@ -17,12 +17,12 @@ local newWorldUpgradeData = {
 				Path = { "GameState", "WorldUpgradesAdded" },
 				HasAll = { "WorldUpgradeMusicPlayer" },
 			},
-			{
-				Path = { "GameState", "WorldUpgradesAdded" },
-				CountOf = game.ScreenData.MusicPlayer.Songs,
-				Comparison = ">=",
-				Value = 10,
-			}
+			-- {
+			-- 	Path = { "GameState", "WorldUpgradesAdded" },
+			-- 	CountOf = game.ScreenData.MusicPlayer.Songs,
+			-- 	Comparison = ">=",
+			-- 	Value = 5,
+			-- }
 		},
 
 		-- Force the voiceline that references blood and darkness, as it fits the family/darkness theme
@@ -41,7 +41,10 @@ local newWorldUpgradeData = {
 
 			{ Cue = "/VO/Melinoe_2603", Text = "Remnants of the past..." },
 		},
-		-- OnActivateFinishedFunctionName = "ShowCodexUpdate",
+
+		-- Immediately unlock the main theme song
+		OnActivateFinishedFunctionName = "AddWorldUpgrade",
+		OnActivateFinishedFunctionArgs = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
 
 		CameraFocusId = 738510,
 		PanDuration = 1.5,

@@ -3,6 +3,7 @@
 ## v0.4.0
 
 <!--Releasenotes start-->
+- Added unlock conditions that need to be met before a song can be purchased and played.
 - Added a config option that allows immediately unlocking all songs. This is not reversible!
 <!--Releasenotes end-->
 
