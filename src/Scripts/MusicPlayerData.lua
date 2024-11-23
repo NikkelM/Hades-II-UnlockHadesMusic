@@ -206,3 +206,13 @@ for songName, songData in pairs(songWorldUpgradeData) do
 	game.ProcessDataInheritance(songData, game.WorldUpgradeData)
 	game.WorldUpgradeData[songName] = songData
 end
+
+-- If the config option is enabled, unlock all songs immediately
+if config.unlockEverything then
+	modutil.mod.Path.Wrap("DeathAreaRoomTransition", function(base, source, args)
+		for songName, _ in pairs(songWorldUpgradeData) do
+			game.AddWorldUpgrade(songName)
+		end
+		base(source, args)
+	end)
+end

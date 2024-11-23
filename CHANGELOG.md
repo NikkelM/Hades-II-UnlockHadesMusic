@@ -1,12 +1,16 @@
 # Changelog
 
-## v0.3.0
+## v0.4.0
 
 <!--Releasenotes start-->
+- Added a config option that allows immediately unlocking all songs. This is not reversible!
+<!--Releasenotes end-->
+
+## v0.3.0
+
 - Added an incantation that is required to perform before "Hades" music can be played. The incantation unlocks if at least ten other songs have been purchased.
 - Updated the start and end times of some tracks to reduce downtime.
 - Adjusted volume of some tracks to be more consistent.
-<!--Releasenotes end-->
 
 ## v0.2.0
 
