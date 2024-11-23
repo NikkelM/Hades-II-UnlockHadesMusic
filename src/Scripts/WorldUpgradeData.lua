@@ -41,6 +41,8 @@ local newWorldUpgradeData = {
 
 			{ Cue = "/VO/Melinoe_2603", Text = "Remnants of the past..." },
 		},
+
+		-- Immediately unlock the main theme song
 		OnActivateFinishedFunctionName = "AddWorldUpgrade",
 		OnActivateFinishedFunctionArgs = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
 
