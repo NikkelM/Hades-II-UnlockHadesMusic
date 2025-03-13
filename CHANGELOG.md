@@ -1,13 +1,17 @@
 # Changelog
 
-## v1.0.0
+## v1.0.1
 
 <!--Releasenotes start-->
+- Fixed an interaction with the [Randomize Favorite Songs](https://thunderstore.io/c/hades-ii/p/NikkelM/Randomize_Favorite_Songs/) mod, where Hades OST songs unlocked before the Warsong update could not be favorited.
+<!--Releasenotes end-->
+
+## v1.0.0
+
 - Public release.
 - Added unlock conditions that need to be met before a song can be purchased and played.
 - Added unlock costs for each song.
 - Added a config option that allows immediately unlocking all songs. This is not reversible!
-<!--Releasenotes end-->
 
 ## v0.3.0
 

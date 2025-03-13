@@ -65,6 +65,7 @@ local function on_ready()
 	import 'Scripts/LoadSoundBanks.lua'
 	import 'Scripts/WorldUpgradeData.lua'
 	import 'Scripts/GhostAdminData_Items.lua'
+	import 'Scripts/PatchLogic.lua'
 
 	-- Localizations
 	-- Some languages are missing, as they did not exist for Hades
