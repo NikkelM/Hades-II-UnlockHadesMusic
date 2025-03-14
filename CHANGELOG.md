@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.0.1
+## v1.0.2
 
 <!--Releasenotes start-->
-- Fixed an interaction with the [Randomize Favorite Songs](https://thunderstore.io/c/hades-ii/p/NikkelM/Randomize_Favorite_Songs/) mod, where Hades OST songs unlocked before the Warsong update could not be favorited.
+- Fixed music not playing.
 <!--Releasenotes end-->
+
+## v1.0.1
+
+- Fixed an interaction with the [Randomize Favorite Songs](https://thunderstore.io/c/hades-ii/p/NikkelM/Randomize_Favorite_Songs/) mod, where Hades OST songs unlocked before the Warsong update could not be favorited.
 
 ## v1.0.0
 
