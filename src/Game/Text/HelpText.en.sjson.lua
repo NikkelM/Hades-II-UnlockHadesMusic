@@ -51,19 +51,19 @@ local newData = {
     Description = "In tribute to the well-feared Erinyes."
   },
   {
-    -- Hestia gift level two
+    -- Enter Anomaly (Asphodel) once
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer",
     DisplayName = "Hades - Through Asphodel",
     Description = "About a once-lush meadows now awash in flame."
   },
   {
-    -- Hestia gift level four
+		-- Enter Anomaly (Asphodel) three times
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer",
     DisplayName = "Hades - River of Flame",
     Description = "The feared River Phlegethon inspired this piece."
   },
   {
-    -- Enter Mourning Fields ten times
+    -- Enter Mourning Fields five times
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel3MusicPlayer",
     DisplayName = "Hades - Field of Souls",
     Description = "For those who passed and now reside in Asphodel."
@@ -75,25 +75,25 @@ local newData = {
     Description = "Dedicated to the King of Athens and the Minoan Bull."
   },
   {
-    -- Dionysys gift level four
+    -- Dionysys gift level two
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer",
     DisplayName = "Hades - The Exalted",
     Description = "Tribute to the mighty heroes of Elysium."
   },
   {
-    -- Beat Charybdis five times
+    -- Beat Charybdis three times
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer",
     DisplayName = "Hades - Rage of the Myrmidons",
     Description = "Commemorates a famous warrior tribe."
   },
   {
-    -- Meet Cerberus ten times
+    -- Meet Cerberus five times
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer",
     DisplayName = "Hades - Gates of Hell",
     Description = "Dedicated to those trespassing in the Temple of Styx."
   },
   {
-    -- Meet Hades ten times (in the future - free him, if ever possible in the game)
+    -- Reached true ending/freed Hades
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer",
     DisplayName = "Hades - God of the Dead",
     Description = "Commissioned long ago in honor of Lord Hades."
@@ -111,19 +111,19 @@ local newData = {
     Description = "Commissioned expressly for the Stygian Boatman."
   },
   {
-    -- Charon Gift Level four
+    -- Met Zagreus/Charon Contract
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer",
     DisplayName = "Hades - Final Expense (Payback Mix)",
     Description = "Commissioned expressly for the Stygian Boatman."
   },
   {
-    -- Chaos Gift Level four
+    -- Chaos Gift Level two
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer",
     DisplayName = "Hades - Primordial Chaos",
     Description = "Ode to the oft-forgotten originator of all things."
   },
   {
-    -- Moros Gift Level four
+    -- Moros Gift Level two
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer",
     DisplayName = "Hades - Last Words",
     Description = "Heralds the arrival of Thanatos, incarnate of death."
@@ -171,13 +171,13 @@ local newData = {
     Description = "Exotic piece uses instruments from the surface world."
   },
   {
-    -- Hades flashback
+    -- Reached true ending
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer",
     DisplayName = "Hades - In the Blood",
     Description = "Popular duet reflects on home and family."
   },
   {
-		-- Echo Gift level three (four not yet available?)
+		-- Echo Gift level two
     Id = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer",
     DisplayName = "Hades - Good Riddance (Eurydice)",
     Description = "A rousing celebration of the afterlife, sung by the muse herself."
