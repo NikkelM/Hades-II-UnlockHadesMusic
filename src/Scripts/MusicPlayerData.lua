@@ -56,7 +56,7 @@ local songWorldUpgradeData = {
 		-- No special unlock condition, can be immediately bought
 		Cost = {
 			CosmeticsPoints = 500,
-		}
+		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer",
@@ -298,6 +298,7 @@ local songWorldUpgradeData = {
 			MixerIBoss = 2,
 			OreIMarble = 5
 		},
+		Rocking = true,
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
@@ -316,6 +317,7 @@ local songWorldUpgradeData = {
 			MetaCardPointsCommon = 250,
 			OreFSilver = 3
 		},
+		Rocking = true,
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer",
@@ -350,6 +352,7 @@ local songWorldUpgradeData = {
 			CharonPoints = 2,
 			MetaCurrency = 400
 		},
+		Rocking = true,
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer",
@@ -422,6 +425,7 @@ local songWorldUpgradeData = {
 			MixerNBoss = 2,
 			OreNBronze = 4
 		},
+		Rocking = true,
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration3MusicPlayer",
@@ -540,6 +544,7 @@ local songWorldUpgradeData = {
 			PlantHMyrtle = 7,
 			SuperGiftPoints = 2
 		},
+		Rocking = true,
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer",

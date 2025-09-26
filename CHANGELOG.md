@@ -3,6 +3,8 @@
 ## v1.0.3
 
 <!--Releasenotes start-->
+- The first song is now immediately unlocked & played after performing the incantation.
+- The Music Player now rocks instead of swaying when playing appropiate tracks.
 - Updated dependencies, confirmed compatibility with the 1.0 update of Hades II.
 - Updated preview images in the mod description.
 <!--Releasenotes end-->
