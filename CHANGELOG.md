@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.0.3
+
+<!--Releasenotes start-->
+- Updated dependencies, confirmed compatibility with the 1.0 update of Hades II.
+- Updated preview images in the mod description.
+<!--Releasenotes end-->
+
 ## v1.0.2
 
 <!--Releasenotes start-->
