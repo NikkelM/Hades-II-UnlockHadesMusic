@@ -1,5 +1,4 @@
 local config = {
-  version = 0;
   enabled = true;
   unlockEverything = false;
 }

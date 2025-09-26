@@ -58,8 +58,8 @@ public.config = config -- so other mods can access our config
 -- end
 
 local function on_ready()
-	-- what to do when we are ready, but not re-do on reload.
 	if config.enabled == false then return end
+	mod = modutil.mod.Mod.Register(_PLUGIN.guid)
 
 	import 'Scripts/MusicPlayerData.lua'
 	import 'Scripts/LoadSoundBanks.lua'

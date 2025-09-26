@@ -42,9 +42,8 @@ local newWorldUpgradeData = {
 			{ Cue = "/VO/Melinoe_2603", Text = "Remnants of the past..." },
 		},
 
-		-- Immediately unlock the main theme song
-		OnActivateFinishedFunctionName = "AddWorldUpgrade",
-		OnActivateFinishedFunctionArgs = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
+		-- Immediately unlock the main theme song and play it
+		OnActivateFinishedFunctionName = _PLUGIN.guid .. "." .. "PostUnlockHadesMusicUpgrade",
 
 		CameraFocusId = 738510,
 		PanDuration = 1.5,
@@ -66,4 +65,14 @@ if config.unlockEverything then
 		end
 		base(source, args)
 	end)
+end
+
+function mod.PostUnlockHadesMusicUpgrade()
+	local unlockedBaseTrack = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer"
+	game.AddWorldUpgrade(unlockedBaseTrack)
+	game.GameState.MusicPlayerSongName = unlockedBaseTrack
+	game.MusicianMusic(game.WorldUpgradeData[unlockedBaseTrack].TrackName)
+	game.CancelArtemisSinging()
+	-- Start the animation on the Musician
+	game.MusicPlayerPlaySongPresentation({ ObjectId = 738510 }, nil)
 end
