@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.3
+## v1.1.0
 
 <!--Releasenotes start-->
 - The first song is now immediately unlocked & played after performing the incantation.
