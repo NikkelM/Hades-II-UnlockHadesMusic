@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.1.0
+## v1.2.1
 
 <!--Releasenotes start-->
 - The first song is now immediately unlocked & played after performing the incantation.
@@ -12,9 +12,7 @@
 
 ## v1.0.2
 
-<!--Releasenotes start-->
 - Fixed music not playing.
-<!--Releasenotes end-->
 
 ## v1.0.1
 
