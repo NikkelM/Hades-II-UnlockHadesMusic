@@ -153,6 +153,16 @@ local newData = {
     DisplayName = "Hades - Auf Nimmerwiedersehen (Eurydike)",
     Description = "Ein mitreißender Lobpreis auf das Leben nach dem Tod, gesungen von der Muse selbst."
   },
+  -- New incantation
+  {
+    Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic",
+    DisplayName = "Bergung der Manuskripte des Orpheus",
+    Description = "Ermöglicht es der {$Keywords.MusicPlayer} musikalische Darbietungen des Orpheus zu spielen, die ehemals im Haus des Hades erklangen."
+  },
+  {
+    Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic_Flavor",
+    Description = "Auch wenn Orpheus nicht unter uns verweilen kann, lässt dich seine Musik deiner verlorenen Familie und Heim etwas näher fühlen."
+  },
 }
 
 local helpTextFile = rom.path.combine(rom.paths.Content, 'Game/Text/de/HelpText.de.sjson')
