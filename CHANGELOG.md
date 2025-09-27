@@ -1,14 +1,18 @@
 # Changelog
 
-## v1.2.1
+## v1.2.2
 
 <!--Releasenotes start-->
+- Fixed a crash in certain situation where the `GameState` is nil when trying to patch the game.
+<!--Releasenotes end-->
+
+## v1.2.1
+
 - The first song is now immediately unlocked & played after performing the incantation.
 - The Music Player now rocks instead of swaying when playing appropiate tracks.
 - Updated some unlock conditions to better reflect the newly added true ending.
 - Updated preview images in the mod description.
 - Updated dependencies.
-<!--Releasenotes end-->
 
 ## v1.0.2
 
