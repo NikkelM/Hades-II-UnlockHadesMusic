@@ -1,10 +1,15 @@
 # Changelog
 
-## v1.2.2
+## v1.3.0
 
 <!--Releasenotes start-->
-- Fixed a crash in certain situation where the `GameState` is nil when trying to patch the game.
+- Changed the unlock condition for the incantation giving access to Hades music to require having beat a certain encounter.
+- Revised the unlock conditions of most songs, to better scale with the timing of when the Music Maker itself is unlocked (most songs will no longer immediately unlock with the incantation).
 <!--Releasenotes end-->
+
+## v1.2.2
+
+- Fixed a crash in certain situations where the `GameState` is nil when trying to patch the game.
 
 ## v1.2.1
 
