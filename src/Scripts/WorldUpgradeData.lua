@@ -22,7 +22,10 @@ local newWorldUpgradeData = {
 				CountOf = game.ScreenData.MusicPlayer.Songs,
 				Comparison = ">=",
 				Value = 7,
-			}
+			},
+			{
+				PathTrue = { "GameState", "EnemyKills", "Zagreus" },
+			},
 		},
 
 		-- Force the voiceline that references blood and darkness, as it fits the family/darkness theme

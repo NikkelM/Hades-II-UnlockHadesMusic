@@ -62,11 +62,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{c1f44b16-95c0-48a5-a2e7-3fa0916e08a0}",
-		-- Meet Hades once
+		-- Having entered the House of Hades after the true ending
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "UseRecord", "NPC_Hades_Field_01" },
+				PathTrue = { "GameState", "RoomsEntered", "I_DeathAreaRestored" },
 			},
 		},
 		Cost = {
@@ -78,24 +78,6 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesResetMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{f00ef76c-1c18-47d2-9bf3-b883bc15e8ef}",
-		-- Enter Tartarus five times
-		GameStateRequirements = {
-			Append = true,
-			{
-				Path = { "GameState", "RoomsEntered", "I_Intro" },
-				Comparison = ">=",
-				Value = 5,
-			}
-		},
-		Cost = {
-			CosmeticsPoints = 500,
-			OreIMarble = 3,
-		},
-	},
-	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer = {
-		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer",
-		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
-		TrackName = "{2393a5bc-9662-4002-913e-83b575d1c056}",
 		-- Enter Tartarus ten times
 		GameStateRequirements = {
 			Append = true,
@@ -108,6 +90,24 @@ local songWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 500,
 			OreIMarble = 3,
+		},
+	},
+	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer = {
+		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer",
+		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
+		TrackName = "{2393a5bc-9662-4002-913e-83b575d1c056}",
+		-- Enter Tartarus fifteen times
+		GameStateRequirements = {
+			Append = true,
+			{
+				Path = { "GameState", "RoomsEntered", "I_Intro" },
+				Comparison = ">=",
+				Value = 15,
+			}
+		},
+		Cost = {
+			CosmeticsPoints = 500,
+			OreIMarble = 3,
 			PlantIShaderot = 2,
 		},
 	},
@@ -115,13 +115,13 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{7fffc963-0826-4f11-81c5-a3eed6818bb9}",
-		-- Enter Oceanus ten times (river/water related)
+		-- Enter Oceanus fifteen times (river/water related)
 		GameStateRequirements = {
 			Append = true,
 			{
 				Path = { "GameState", "RoomsEntered", "G_Intro" },
 				Comparison = ">=",
-				Value = 10,
+				Value = 15,
 			}
 		},
 		Cost = {
@@ -133,13 +133,13 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{eb9bfcbd-fdae-4f68-9ed2-531c6168dd6d}",
-		-- Beat Scylla five times
+		-- Beat the Scylla Vow of Rivals three times
 		GameStateRequirements = {
 			Append = true,
 			{
-				Path = { "GameState", "EnemyKills", "Scylla" },
+				Path = { "GameState", "EncountersCompletedCache", "BossScylla02" },
 				Comparison = ">=",
-				Value = 5,
+				Value = 3,
 			},
 		},
 		Cost = {
@@ -151,13 +151,13 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{29359d10-547e-4a94-84c1-b31e4fcdeb92}",
-		-- Enter Anomaly (Asphodel) once
+		-- Enter Anomaly (Asphodel) three times
 		GameStateRequirements = {
 			Append = true,
 			{
-				{
-					PathTrue = { "GameState", "BiomeVisits", "Anomaly" },
-				},
+				Path = { "GameState", "BiomeVisits", "Anomaly" },
+				Comparison = ">=",
+				Value = 3,
 			},
 		},
 		Cost = {
@@ -170,15 +170,13 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{c872078c-f057-4882-a7e1-e0bcacde1414}",
-		-- Enter Anomaly (Asphodel) three times
+		-- Beat Cerberus Vow of Rivals three times
 		GameStateRequirements = {
 			Append = true,
 			{
-				{
-					Path = { "GameState", "BiomeVisits", "Anomaly" },
-					Comparison = ">=",
-					Value = 3,
-				},
+				Path = { "GameState", "EncountersCompletedCache", "BossInfestedCerberus02" },
+				Comparison = ">=",
+				Value = 3,
 			},
 		},
 		Cost = {
@@ -191,13 +189,13 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel3MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{b0533fd9-9980-4fc6-b0a7-23813f2cda1c}",
-		-- Enter Mourning Fields five times
+		-- Enter Mourning Fields fifteen times
 		GameStateRequirements = {
 			Append = true,
 			{
 				Path = { "GameState", "RoomsEntered", "H_Intro" },
 				Comparison = ">=",
-				Value = 5,
+				Value = 15,
 			}
 		},
 		Cost = {
@@ -210,15 +208,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{957caeee-56d0-4ae1-a872-81e01e6fea88}",
-		-- Meet Prometheus (King) and beat Talos (Bull)
+		-- Meet Prometheus Vow of Rivals
 		GameStateRequirements = {
-			Append = true,
 			{
-				PathTrue = { "GameState", "RoomsEntered", "P_Boss01" },
+				PathTrue = { "GameState", "EncountersOccurredCache", "BossPrometheus02" },
 			},
-			{
-				PathTrue = { "GameState", "EnemyKills", "Talos" },
-			}
 		},
 		Cost = {
 			CosmeticsPoints = 700,
@@ -230,11 +224,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{e71ca020-6a35-448c-8855-8098b6fe5e58}",
-		-- Dionysys gift level two
+		-- Dionysys gift level three
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "TextLinesRecord", "DionysusGift02" },
+				PathTrue = { "GameState", "TextLinesRecord", "DionysusGift03" },
 			},
 		},
 		Cost = {
@@ -246,13 +240,13 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{e025788e-6814-4bfe-9b73-5be5d3465572}",
-		-- Beat Charbydis three times
+		-- Beat Charbydis five times
 		GameStateRequirements = {
 			Append = true,
 			{
 				Path = { "GameState", "EnemyKills", "Charybdis" },
 				Comparison = ">=",
-				Value = 3,
+				Value = 5,
 			},
 		},
 		Cost = {
@@ -265,14 +259,15 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{aff7e6d5-24ca-4aec-b209-be29d626a427}",
-		-- Meet Cerberus five times
+		-- Meet Cerberus fifteen times
 		GameStateRequirements = {
 			Append = true,
 			{
-				Path = { "GameState", "RoomsEntered", "H_Boss01" },
+				Path = { "GameState", "RoomsEntered" },
+				SumOf = { "H_Boss01", "H_Boss02" },
 				Comparison = ">=",
-				Value = 5,
-			}
+				Value = 15,
+			},
 		},
 		Cost = {
 			CosmeticsPoints = 600,
@@ -284,10 +279,12 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{fc71b797-75db-43af-8cc0-f50fdacb5dbc}",
-		-- Reached true ending
+		-- Received Hades keepsake
 		GameStateRequirements = {
 			Append = true,
-			PathTrue = { "GameState", "ReachedTrueEnding" },
+			{
+				PathTrue = { "GameState", "TextLinesRecord", "HadesWithPersephoneGift01" },
+			},
 		},
 		Cost = {
 			CosmeticsPoints = 600,
@@ -300,11 +297,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{50ebf4d6-4c76-416f-9c32-33787f99f27e}",
-		-- Unlocked the first Skelly statue
+		-- Unlocked the third Skelly statue
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "TextLinesRecord", "TrophyQuestComplete01" },
+				PathTrue = { "GameState", "TextLinesRecord", "TrophyQuestComplete03" },
 			}
 		},
 		Cost = {
@@ -319,11 +316,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{1d2d987b-853b-4a65-aa2d-a3e8c7e0e99b}",
-		-- Charon Gift Level two
+		-- Charon Gift Level four
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "TextLinesRecord", "CharonGift02" },
+				PathTrue = { "GameState", "TextLinesRecord", "CharonGift04" },
 			},
 		},
 		Cost = {
@@ -336,11 +333,13 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{75c830f2-e8b3-4a59-949b-be106e2ff1e6}",
-		-- Met Zagreus/Charon Contract
+		-- Beat Zagreus three times
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "RoomsEntered", "C_Boss01" },
+				Path = { "GameState", "EnemyKills", "Zagreus" },
+				Comparison = ">=",
+				Value = 3,
 			},
 		},
 		Cost = {
@@ -354,11 +353,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{2c8f3fd6-6c6c-4146-a750-20be93cd8ca8}",
-		-- Chaos Gift Level two
+		-- Nyx Gift Level one
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "TextLinesRecord", "ChaosGift02" },
+				PathTrue = { "GameState", "TextLinesRecord", "NyxGift01" },
 			},
 		},
 		Cost = {
@@ -372,11 +371,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{1e20eb07-28cb-4b8d-9d01-a9c199c79118}",
-		-- Moros Gift Level two
+		-- Moros bond forged
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "TextLinesRecord", "MorosGift02" },
+				PathTrue = { "GameState", "TextLinesRecord", "MorosTaverna02" },
 			},
 		},
 		Cost = {
@@ -389,14 +388,15 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration1MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{eb3e0bed-2912-4c2e-af4e-3860fae954e9}",
-		-- Reached Hecate ten times
+		-- Reached Hecate twentyfive times
 		GameStateRequirements = {
 			Append = true,
 			{
-				Path = { "GameState", "RoomsEntered", "F_Boss01" },
+				Path = { "GameState", "RoomsEntered" },
+				SumOf = { "F_Boss01", "F_Boss02" },
 				Comparison = ">=",
-				Value = 10,
-			}
+				Value = 25,
+			},
 		},
 		Cost = {
 			CosmeticsPoints = 500,
@@ -407,13 +407,14 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{b4191f68-8b2a-4e15-9c94-5d1a5c52bc85}",
-		-- Met Polyphemus five times
+		-- Beat Polyphemus twenty times
 		GameStateRequirements = {
 			Append = true,
 			{
-				Path = { "GameState", "RoomsEntered", "N_Boss01" },
+				Path = { "GameState", "RoomsEntered" },
+				SumOf = { "N_Boss01", "N_Boss02" },
 				Comparison = ">=",
-				Value = 5,
+				Value = 20,
 			}
 		},
 		Cost = {
@@ -442,6 +443,7 @@ local songWorldUpgradeData = {
 					"ForceAphroditeBoonKeepsake",
 					"ForceHephaestusBoonKeepsake",
 					"ForceHestiaBoonKeepsake",
+					"AthenaEncounterKeepsake",
 				},
 			}
 		},
@@ -455,11 +457,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{c0cdae19-b74e-4da2-87a8-20ad7d5f6e1d}",
-		-- Hypnos flashback
+		-- Hypnos woken up
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "TextLinesRecord", "HypnosDreamMeeting01" },
+				PathTrue = { "GameState", "TextLinesRecord", "HypnosFinalDreamMeeting01" },
 			}
 		},
 		Cost = {
@@ -472,11 +474,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{f960ff2a-1407-4136-86bc-ca5d3f633290}",
-		-- Hades flashback
+		-- Zagreus bond forged
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "TextLinesRecord", "ChronosNightmare01" },
+				PathTrue = { "GameState", "TextLinesRecord", "ZagreusBossGrantsBondForged01" },
 			}
 		},
 		Cost = {
@@ -508,12 +510,10 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{9155f02e-dbb8-4f3b-93c6-bac757bb17f5}",
-		-- Get to Olympus once (the proper surface)
+		-- Reached the epilogue
 		GameStateRequirements = {
 			Append = true,
-			{
-				PathTrue = { "GameState", "RoomsEntered", "P_Intro" },
-			}
+			NamedRequirements = { "ReachedEpilogue" },
 		},
 		Cost = {
 			CosmeticsPoints = 500,
@@ -525,10 +525,10 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{05c22860-d3f1-4f90-b5d7-cfa24a587f61}",
-		-- Reached true ending
+		-- Reached epilogue
 		GameStateRequirements = {
 			Append = true,
-			PathTrue = { "GameState", "ReachedTrueEnding" },
+			NamedRequirements = { "ReachedEpilogue" },
 		},
 		Cost = {
 			CosmeticsPoints = 1111,
@@ -542,11 +542,11 @@ local songWorldUpgradeData = {
 		Name = "ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1SoloMusicPlayer",
 		InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
 		TrackName = "{2888a0d0-33b5-454d-b596-220cf5922de1}",
-		-- Echo Gift level two
+		-- Ending the Narcissus and Echo questline
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "TextLinesRecord", "EchoGift02" },
+				PathTrue = { "GameState", "TextLinesRecord", "NarcissusWithEcho03" },
 			},
 		},
 		Cost = {
