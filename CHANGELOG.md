@@ -4,7 +4,7 @@
 
 <!--Releasenotes start-->
 - Added integration with the [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/) mod.
-- If both mods are installed, unlock conditions and resource costs will adapt to progression in Zagreus' Journey, and use its new resources.
+- If both mods are installed, unlock conditions and resource costs will adapt to progression in Zagreus' Journey, and use the resources introduced by the mod.
 <!--Releasenotes end-->
 
 ## v1.3.0
