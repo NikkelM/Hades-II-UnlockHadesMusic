@@ -731,8 +731,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 700,
+			ModsNikkelMHadesBiomes_BossResourceElysium = 1,
 			ModsNikkelMHadesBiomes_PlantElysium = 3,
-			ModsNikkelMHadesBiomes_CropElysium = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer = {
@@ -747,8 +747,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 400,
-			ModsNikkelMHadesBiomes_BossResourceElysium = 1,
 			ModsNikkelMHadesBiomes_OreElysium = 4,
+			ModsNikkelMHadesBiomes_CropElysium = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer = {
