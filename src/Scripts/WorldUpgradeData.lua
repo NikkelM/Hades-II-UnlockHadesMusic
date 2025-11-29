@@ -4,7 +4,6 @@ local newWorldUpgradeData = {
 		InheritFrom = { "DefaultHubItem", "DefaultCriticalItem" },
 
 		Icon = "GUI\\Screens\\CriticalItemShop\\Icons\\cauldron_bard",
-		-- TODO: Custom cost if Zagreus Journey is installed
 		Cost = {
 			Mixer6Common = 1,
 			PlantGLotus = 2,
@@ -50,7 +49,7 @@ local newWorldUpgradeData = {
 	}
 }
 
--- If Zagreus' Journey is installed, at least one modded run must be completed to unlock the upgrade
+-- If Zagreus' Journey is installed, at least one modded run must be completed to unlock the upgrade, and the cost is different as well
 local mods = rom.mods
 local zagreusJourneyActive = mods["NikkelM-Zagreus_Journey"]
 if zagreusJourneyActive then
@@ -59,6 +58,10 @@ if zagreusJourneyActive then
 			PathTrue = { "GameState", "ModsNikkelMHadesBiomesCompletedRunsCache" },
 		}
 	)
+	newWorldUpgradeData.WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic.Cost = {
+		Mixer6Common = 1,
+		ModsNikkelMHadesBiomes_PlantTartarus = 1,
+	}
 end
 
 -- Make sure the inherited fields are applied properly, then insert the new song data into the WorldUpgradeData table
