@@ -1,18 +1,14 @@
 local newWorldUpgradeData = {
-	WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic =
-	{
+	WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic = {
 		Name = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic",
 		InheritFrom = { "DefaultHubItem", "DefaultCriticalItem" },
 
 		Icon = "GUI\\Screens\\CriticalItemShop\\Icons\\cauldron_bard",
-		Cost =
-		{
+		Cost = {
 			Mixer6Common = 1,
 			PlantGLotus = 2,
 		},
-
-		GameStateRequirements =
-		{
+		GameStateRequirements = {
 			{
 				Path = { "GameState", "WorldUpgradesAdded" },
 				HasAll = { "WorldUpgradeMusicPlayer" },
@@ -23,22 +19,21 @@ local newWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 7,
 			},
-			{
-				PathTrue = { "GameState", "EnemyKills", "Zagreus" },
-			},
+			-- This makes it appear really late, which is lame for a mod
+			-- {
+			-- 	PathTrue = { "GameState", "EnemyKills", "Zagreus" },
+			-- },
 		},
 
 		-- Force the voiceline that references blood and darkness, as it fits the family/darkness theme
-		IncantationVoiceLines =
-		{
+		IncantationVoiceLines = {
 			{
 				PreLineWait = 0.3,
 				{ Cue = "/VO/Melinoe_1075", Text = "{#Emph}By blood and darkness, let my will be done!" },
 			},
 		},
 
-		PostRevealVoiceLines =
-		{
+		PostRevealVoiceLines = {
 			PreLineWait = 0.55,
 			UsePlayerSource = true,
 
@@ -53,6 +48,21 @@ local newWorldUpgradeData = {
 		PanHoldDuration = 2.0,
 	}
 }
+
+-- If Zagreus' Journey is installed, at least one modded run must be completed to unlock the upgrade, and the cost is different as well
+local mods = rom.mods
+local zagreusJourneyActive = mods["NikkelM-Zagreus_Journey"]
+if zagreusJourneyActive then
+	table.insert(newWorldUpgradeData.WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic.GameStateRequirements,
+		{
+			PathTrue = { "GameState", "ModsNikkelMHadesBiomesCompletedRunsCache" },
+		}
+	)
+	newWorldUpgradeData.WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic.Cost = {
+		Mixer6Common = 1,
+		ModsNikkelMHadesBiomes_PlantTartarus = 1,
+	}
+end
 
 -- Make sure the inherited fields are applied properly, then insert the new song data into the WorldUpgradeData table
 for worldUpgradeName, worldUpgradeData in pairs(newWorldUpgradeData) do
