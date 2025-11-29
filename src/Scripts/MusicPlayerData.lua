@@ -589,7 +589,7 @@ local zagreusJourneyWorldUpgradeData = {
 			{
 				Path = { "GameState", "ModsNikkelMHadesBiomesCompletedRunsCache" },
 				Comparison = ">=",
-				Value = 1,
+				Value = 2,
 			},
 		},
 		Cost = {
@@ -606,7 +606,7 @@ local zagreusJourneyWorldUpgradeData = {
 			{
 				Path = { "GameState", "ModsNikkelMHadesBiomesCompletedRunsCache" },
 				Comparison = ">=",
-				Value = 2,
+				Value = 3,
 			},
 		},
 		Cost = {
@@ -623,7 +623,7 @@ local zagreusJourneyWorldUpgradeData = {
 			{
 				Path = { "GameState", "ModsNikkelMHadesBiomesCompletedRunsCache" },
 				Comparison = ">=",
-				Value = 2,
+				Value = 3,
 			},
 		},
 		Cost = {
@@ -641,7 +641,7 @@ local zagreusJourneyWorldUpgradeData = {
 			{
 				Path = { "GameState", "ModsNikkelMHadesBiomesCompletedRunsCache" },
 				Comparison = ">=",
-				Value = 3,
+				Value = 4,
 			},
 		},
 		Cost = {
@@ -658,7 +658,7 @@ local zagreusJourneyWorldUpgradeData = {
 			{
 				Path = { "GameState", "ModsNikkelMHadesBiomesCompletedRunsCache" },
 				Comparison = ">=",
-				Value = 3,
+				Value = 4,
 			},
 		},
 		Cost = {
