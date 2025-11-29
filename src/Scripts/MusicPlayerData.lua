@@ -594,7 +594,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			PlantIShaderot = 3,
+			ModsNikkelMHadesBiomes_OreTartarus = 5,
+			ModsNikkelMHadesBiomes_PlantTartarus = 1,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesResetMusicPlayer = {
@@ -611,7 +612,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			OreIMarble = 3,
+			ModsNikkelMHadesBiomes_PlantTartarus = 2,
+			ModsNikkelMHadesBiomes_CropTartarus = 1,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset2MusicPlayer = {
@@ -628,8 +630,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			OreIMarble = 3,
-			PlantIShaderot = 2,
+			ModsNikkelMHadesBiomes_BossResourceTartarus = 1,
+			ModsNikkelMHadesBiomes_PlantTartarus = 3,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicHadesReset3MusicPlayer = {
@@ -646,7 +648,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			PlantGCattail = 3,
+			ModsNikkelMHadesBiomes_OreTartarus = 3,
+			ModsNikkelMHadesBiomes_CropTartarus = 2,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicTartarus4MusicPlayer = {
@@ -663,7 +666,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 600,
-			MixerGBoss = 2,
+			ModsNikkelMHadesBiomes_BossResourceTartarus = 2,
+			ModsNikkelMHadesBiomes_PlantTartarus = 2,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel1MusicPlayer = {
@@ -678,8 +682,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			MixerFBoss = 1,
-			PlantIPoppy = 2
+			ModsNikkelMHadesBiomes_PlantAsphodel = 2,
+			ModsNikkelMHadesBiomes_CropAsphodel = 1
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel2MusicPlayer = {
@@ -694,8 +698,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 600,
-			MixerFBoss = 2,
-			PlantIPoppy = 5
+			ModsNikkelMHadesBiomes_BossResourceAsphodel = 1,
+			ModsNikkelMHadesBiomes_OreAsphodel = 3,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicAsphodel3MusicPlayer = {
@@ -710,8 +714,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			PlantHWheat = 5,
-			OreHGlassrock = 3
+			ModsNikkelMHadesBiomes_BossResourceAsphodel = 2,
+			ModsNikkelMHadesBiomes_CropAsphodel = 2,
+			ModsNikkelMHadesBiomes_OreAsphodel = 4
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium1MusicPlayer = {
@@ -726,8 +731,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 700,
-			MixerPBoss = 1,
-			OrePAdamant = 3
+			ModsNikkelMHadesBiomes_PlantElysium = 3,
+			ModsNikkelMHadesBiomes_CropElysium = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium2MusicPlayer = {
@@ -742,7 +747,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 400,
-			PlantPOlive = 5,
+			ModsNikkelMHadesBiomes_BossResourceElysium = 1,
+			ModsNikkelMHadesBiomes_OreElysium = 4,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer = {
@@ -757,8 +763,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			PlantOMandrake = 3,
-			PlantODriftwood = 2
+			ModsNikkelMHadesBiomes_BossResourceElysium = 2,
+			ModsNikkelMHadesBiomes_PlantElysium = 2,
+			ModsNikkelMHadesBiomes_OreElysium = 4,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer = {
@@ -773,8 +780,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 600,
-			MixerHBoss = 2,
-			OreNBronze = 5
+			ModsNikkelMHadesBiomes_OreStyx = 5,
+			ModsNikkelMHadesBiomes_PlantStyx = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer = {
@@ -789,8 +796,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 600,
-			MixerIBoss = 2,
-			OreIMarble = 5
+			ModsNikkelMHadesBiomes_BossResourceStyx = 2,
+			ModsNikkelMHadesBiomes_CropStyx = 3
 		},
 		Rocking = true,
 	},
@@ -806,8 +813,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			CharonPoints = 1,
-			MetaCurrency = 250
+			CharonPoints = 2,
+			ModsNikkelMHadesBiomes_CropAsphodel = 3,
+			ModsNikkelMHadesBiomes_CropElysium = 3
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer = {
@@ -823,7 +831,8 @@ local zagreusJourneyWorldUpgradeData = {
 		Cost = {
 			CosmeticsPoints = 500,
 			CharonPoints = 2,
-			MetaCurrency = 400
+			ModsNikkelMHadesBiomes_OreTartarus = 4,
+			ModsNikkelMHadesBiomes_CropStyx = 4
 		},
 		Rocking = true,
 	},
@@ -840,9 +849,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 600,
-			OreChaosProtoplasm = 2,
-			PlantChaosThalamus = 3,
-			Mixer6Common = 2
+			ModsNikkelMHadesBiomes_BossResourceElysium = 2,
+			ModsNikkelMHadesBiomes_PlantElysium = 3,
+			ModsNikkelMHadesBiomes_PlantStyx = 3,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerThanatosThemeMusicPlayer = {
@@ -857,8 +866,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			PlantFNightshade = 6,
-			MetaFabric = 3
+			ModsNikkelMHadesBiomes_PlantAsphodel = 4,
+			ModsNikkelMHadesBiomes_PlantStyx = 3,
+			ModsNikkelMHadesBiomes_BossResourceTartarus = 1
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration1MusicPlayer = {
@@ -876,7 +886,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			MixerFBoss = 2
+			ModsNikkelMHadesBiomes_BossResourceStyx = 1,
+			ModsNikkelMHadesBiomes_BossResourceElysium = 1,
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration2MusicPlayer = {
@@ -891,8 +902,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 600,
-			MixerNBoss = 2,
-			OreNBronze = 4
+			ModsNikkelMHadesBiomes_BossResourceTartarus = 2,
+			ModsNikkelMHadesBiomes_OreElysium = 4,
+			ModsNikkelMHadesBiomes_CropAsphodel = 1,
 		},
 		Rocking = true,
 	},
@@ -908,8 +920,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 700,
-			PlantPOlive = 4,
-			OrePAdamant = 3
+			ModsNikkelMHadesBiomes_PlantElysium = 4,
+			ModsNikkelMHadesBiomes_CropElysium = 3
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong1MusicPlayer = {
@@ -932,8 +944,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 750,
-			MixerIBoss = 2,
-			Mixer5Common = 1
+			ModsNikkelMHadesBiomes_OreStyx = 4,
+			ModsNikkelMHadesBiomes_BossResourceStyx = 1,
+			ModsNikkelMHadesBiomes_CropTartarus = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerOrpheusSong2MusicPlayer = {
@@ -955,9 +968,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 750,
-			MixerIBoss = 1,
-			MetaFabric = 5,
-			MixerShadow = 2
+			ModsNikkelMHadesBiomes_BossResourceAsphodel = 1,
+			ModsNikkelMHadesBiomes_PlantAsphodel = 3,
+			ModsNikkelMHadesBiomes_PlantStyx = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEurydiceSong1MusicPlayer = {
@@ -976,9 +989,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 700,
-			MixerOBoss = 2,
-			PlantFMoly = 5,
-			CardUpgradePoints = 3
+			ModsNikkelMHadesBiomes_CropAsphodel = 2,
+			ModsNikkelMHadesBiomes_OreAsphodel = 5,
+			ModsNikkelMHadesBiomes_BossResourceAsphodel = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerPersephoneThemeMusicPlayer = {
@@ -993,8 +1006,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 500,
-			PlantPOlive = 5,
-			OrePAdamant = 3
+			ModsNikkelMHadesBiomes_BossResourceStyx = 2,
+			ModsNikkelMHadesBiomes_CropTartarus = 2,
+			ModsNikkelMHadesBiomes_CropStyx = 2
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer = {
@@ -1009,9 +1023,9 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 1111,
-			MixerIBoss = 2,
-			PlantHMyrtle = 7,
-			SuperGiftPoints = 2
+			ModsNikkelMHadesBiomes_BossResourceTartarus = 2,
+			ModsNikkelMHadesBiomes_BossResourceAsphodel = 2,
+			ModsNikkelMHadesBiomes_BossResourceElysium = 2,
 		},
 		Rocking = true,
 	},
@@ -1031,8 +1045,8 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 700,
-			MixerOBoss = 2,
-			PlantIPoppy = 5
+			ModsNikkelMHadesBiomes_OreElysium = 5,
+			ModsNikkelMHadesBiomes_CropStyx = 1
 		},
 	},
 	ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer = {
@@ -1047,9 +1061,7 @@ local zagreusJourneyWorldUpgradeData = {
 		},
 		Cost = {
 			CosmeticsPoints = 600,
-			MemPointsCommon = 250,
-			MetaCardPointsCommon = 250,
-			OreFSilver = 3
+			ModsNikkelMHadesBiomes_BossResourceStyx = 3,
 		},
 		Rocking = true,
 	},
