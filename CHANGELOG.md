@@ -1,11 +1,16 @@
 # Changelog
 
-## v1.3.0
+## v1.4.0
 
 <!--Releasenotes start-->
+- Added integration with the [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/) mod.
+- If both mods are installed, unlock conditions and resource costs will adapt to progression in Zagreus' Journey, and use its new resources.
+<!--Releasenotes end-->
+
+## v1.3.0
+
 - Changed the unlock condition for the incantation giving access to Hades music to require having beat a certain encounter.
 - Revised the unlock conditions of most songs, to better scale with the timing of when the Music Maker itself is unlocked (most songs will no longer immediately unlock with the incantation).
-<!--Releasenotes end-->
 
 ## v1.2.2
 

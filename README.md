@@ -8,6 +8,8 @@ Most tracks are only made available by meeting certain conditions, such as visit
 
 ![Hades OST for the Music Maker - Unlock a Song](https://github.com/user-attachments/assets/93838874-08a3-4383-9724-e9c6fa7aa5f4)
 
+If you also have [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/) installed, the unlock conditions and resource costs for new songs will adapt to your progression in that mod, and use its new resources.
+
 ## FAQ
 
 ### I don't see any Hades music in the Music Maker screen?
