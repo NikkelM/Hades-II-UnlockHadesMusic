@@ -72,11 +72,20 @@ end
 
 -- If the config option is enabled, unlock all world upgrades immediately (i.e., the incantation will be performed)
 if config.unlockEverything then
+	-- This must be the same as the wrap for HubPostBountyLoad, which is called instead of DeathAreaRoomTransition when returning from a Chaos Trial
 	modutil.mod.Path.Wrap("DeathAreaRoomTransition", function(base, source, args)
 		for worldUpgradeName, _ in pairs(newWorldUpgradeData) do
 			game.AddWorldUpgrade(worldUpgradeName)
 		end
-		base(source, args)
+		return base(source, args)
+	end)
+
+	-- If returning from a Chaos Trial, this will be called instead of DeathAreaRoomTransition
+	modutil.mod.Path.Wrap("HubPostBountyLoad", function(base, source, args)
+		for worldUpgradeName, _ in pairs(newWorldUpgradeData) do
+			game.AddWorldUpgrade(worldUpgradeName)
+		end
+		return base(source, args)
 	end)
 end
 
