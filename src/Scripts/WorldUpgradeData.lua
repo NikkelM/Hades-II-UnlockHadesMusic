@@ -2,6 +2,9 @@ local newWorldUpgradeData = {
 	WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic = {
 		Name = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic",
 		InheritFrom = { "DefaultHubItem", "DefaultCriticalItem" },
+		-- Used if Zagreus' Journey is installed
+		ModsNikkelMHadesBiomesInsertAfterItem = "ModsNikkelMHadesBiomesUnlockCosmeticsIncantation",
+		ModsNikkelMHadesBiomesCauldronCategory = "WorldUpgradeScreen_ModsNikkelMHadesBiomes_Critical",
 
 		Icon = "GUI\\Screens\\CriticalItemShop\\Icons\\cauldron_bard",
 		Cost = {
@@ -19,10 +22,6 @@ local newWorldUpgradeData = {
 				Comparison = ">=",
 				Value = 7,
 			},
-			-- This makes it appear really late, which is lame for a mod
-			-- {
-			-- 	PathTrue = { "GameState", "EnemyKills", "Zagreus" },
-			-- },
 		},
 
 		-- Force the voiceline that references blood and darkness, as it fits the family/darkness theme
@@ -50,17 +49,27 @@ local newWorldUpgradeData = {
 }
 
 -- If Zagreus' Journey is installed, at least one modded run must be completed to unlock the upgrade, and the cost is different as well
+-- Also, Zagreus' Journey will move the incantation to it's own category
 local mods = rom.mods
 local zagreusJourneyActive = mods["NikkelM-Zagreus_Journey"]
 if zagreusJourneyActive then
 	table.insert(newWorldUpgradeData.WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic.GameStateRequirements,
 		{
-			PathTrue = { "GameState", "ModsNikkelMHadesBiomesCompletedRunsCache" },
+			Path = { "GameState", "ModsNikkelMHadesBiomesCompletedRunsCache" },
+			Comparison = ">=",
+			Value = 1,
+		}
+	)
+	-- Met Eurydice
+	table.insert(newWorldUpgradeData.WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic.GameStateRequirements,
+		{
+			PathTrue = { "GameState", "RoomsEntered", "X_Story01" },
 		}
 	)
 	newWorldUpgradeData.WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic.Cost = {
 		Mixer6Common = 1,
-		ModsNikkelMHadesBiomes_PlantTartarus = 1,
+		ModsNikkelMHadesBiomes_PlantTartarus = 2,
+		ModsNikkelMHadesBiomes_CropElysium = 1,
 	}
 end
 

@@ -808,7 +808,9 @@ local zagreusJourneyWorldUpgradeData = {
 		GameStateRequirements = {
 			Append = true,
 			{
-				PathTrue = { "GameState", "RoomsEntered", "D_Boss01" },
+				Path = { "GameState", "RoomsEntered", "D_Hub" },
+				Comparison = ">=",
+				Value = 3,
 			},
 		},
 		Cost = {
@@ -824,6 +826,9 @@ local zagreusJourneyWorldUpgradeData = {
 		TrackName = "{75c830f2-e8b3-4a59-949b-be106e2ff1e6}",
 		GameStateRequirements = {
 			Append = true,
+			{
+				PathTrue = { "GameState", "WorldUpgradesAdded", "ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer" },
+			},
 			{
 				PathTrue = { "GameState", "RoomsEntered", "CharonFight01" },
 			},

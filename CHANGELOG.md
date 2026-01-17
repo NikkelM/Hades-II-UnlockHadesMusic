@@ -1,11 +1,15 @@
 # Changelog
 
-## v1.4.1
+## v1.4.2
 
 <!--Releasenotes start-->
+- Minor internal code changes to support this mod as a dependency of [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/).
+<!--Releasenotes end-->
+
+## v1.4.1
+
 - Fixed music not playing when returning from a Chaos Trial.
 - Fixed songs not being unlocked immediately when the config option to unlock everything is enabled when returning from a Chaos Trial.
-<!--Releasenotes end-->
 
 ## v1.4.0
 
