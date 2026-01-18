@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.4.2
+## v1.4.3
 
 <!--Releasenotes start-->
-- Minor internal code changes to support this mod as a dependency of [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/).
+- Minor internal code changes to further support this mod as a dependency of [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/).
 <!--Releasenotes end-->
+
+## v1.4.2
+
+- Minor internal code changes to support this mod as a dependency of [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/).
 
 ## v1.4.1
 

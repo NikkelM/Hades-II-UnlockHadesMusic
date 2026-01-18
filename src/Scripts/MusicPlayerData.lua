@@ -1,4 +1,4 @@
-local songNames = {
+public.HadesOstSongNames = {
 	"ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer",
 	"ModsNikkelMUnlockHadesMusicMusicPlayerHadesThemeMusicPlayer",
 	"ModsNikkelMUnlockHadesMusicMusicPlayerMusicExploration4MusicPlayer",
@@ -30,7 +30,7 @@ local songNames = {
 	"ModsNikkelMUnlockHadesMusicMusicPlayerEndThemeMusicPlayer",
 }
 
-for _, songName in ipairs(songNames) do
+for _, songName in ipairs(public.HadesOstSongNames) do
 	table.insert(game.ScreenData.MusicPlayer.Songs, songName)
 end
 
