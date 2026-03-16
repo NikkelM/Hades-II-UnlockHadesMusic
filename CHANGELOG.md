@@ -36,7 +36,7 @@
 ## v1.2.1
 
 - The first song is now immediately unlocked & played after performing the incantation.
-- The Music Player now rocks instead of swaying when playing appropiate tracks.
+- The Music Player now rocks instead of swaying when playing appropriate tracks.
 - Updated some unlock conditions to better reflect the newly added true ending.
 - Updated preview images in the mod description.
 - Updated dependencies.
@@ -72,4 +72,4 @@
 
 ## v0.0.1
 
-- Initial release with only songs already in the game's files.
+- Initial release with only songs already in the game files.
