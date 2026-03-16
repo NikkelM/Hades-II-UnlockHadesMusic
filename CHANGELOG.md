@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.4.3
+## v1.4.4
 
 <!--Releasenotes start-->
-- Minor internal code changes to further support this mod as a dependency of [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/).
+- Updated unlock requirements for a number of songs following the addition of Orpheus to [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/).
 <!--Releasenotes end-->
+
+## v1.4.3
+
+- Minor internal code changes to further support this mod as a dependency of [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/).
 
 ## v1.4.2
 

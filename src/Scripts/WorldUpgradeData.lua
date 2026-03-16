@@ -60,10 +60,11 @@ if zagreusJourneyActive then
 			Value = 1,
 		}
 	)
-	-- Met Eurydice
+	-- Met Orpheus
 	table.insert(newWorldUpgradeData.WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic.GameStateRequirements,
 		{
-			PathTrue = { "GameState", "RoomsEntered", "X_Story01" },
+			Path = { "GameState", "TextLinesRecord" },
+			HasAny = { "OrpheusFirstMeeting", "OrpheusFirstMeeting_Alt" },
 		}
 	)
 	newWorldUpgradeData.WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic.Cost = {

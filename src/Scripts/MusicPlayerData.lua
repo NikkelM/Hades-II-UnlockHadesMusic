@@ -935,17 +935,10 @@ local zagreusJourneyWorldUpgradeData = {
 		TrackName = "{c0cdae19-b74e-4da2-87a8-20ad7d5f6e1d}",
 		GameStateRequirements = {
 			Append = true,
-			-- {
-			-- 	-- TODO: Currently not obtainable in Zagreus' Journey
-			-- 	Path = { "GameState", "TextLinesRecord", },
-			-- 	HasAny = { "OrpheusSingsAgain01", "OrpheusSingsAgain01_B", "OrpheusSingsAgain01_C", "OrpheusSingsAgain01_D" },
-			-- },
-			-- Alternative: Visited Eurydice 3 times
 			{
-				Path = { "GameState", "RoomsEntered", "X_Story01" },
-				Comparison = ">=",
-				Value = 3,
-			}
+				Path = { "GameState", "TextLinesRecord", },
+				HasAny = { "OrpheusSingsAgain01", "OrpheusSingsAgain01_B", "OrpheusSingsAgain01_C", "OrpheusSingsAgain01_D" },
+			},
 		},
 		Cost = {
 			CosmeticsPoints = 750,
@@ -960,16 +953,9 @@ local zagreusJourneyWorldUpgradeData = {
 		TrackName = "{f960ff2a-1407-4136-86bc-ca5d3f633290}",
 		GameStateRequirements = {
 			Append = true,
-			-- {
-			-- 	-- TODO: Currently not obtainable in Zagreus' Journey
-			-- 	PathTrue = { "GameState", "TextLinesRecord", "OrpheusSingsAgain02" },
-			-- },
-			-- Alternative: Visited Eurydice 5 times
 			{
-				Path = { "GameState", "RoomsEntered", "X_Story01" },
-				Comparison = ">=",
-				Value = 5,
-			}
+				PathTrue = { "GameState", "TextLinesRecord", "OrpheusSingsAgain02" },
+			},
 		},
 		Cost = {
 			CosmeticsPoints = 750,
@@ -985,11 +971,8 @@ local zagreusJourneyWorldUpgradeData = {
 		GameStateRequirements = {
 			Append = true,
 			{
-				-- TODO: Currently not obtainable in Zagreus' Journey
 				Path = { "GameState", "TextLinesRecord", },
-				-- HasAny = { "OrpheusSingsAgain03", "OrpheusSingsAgain03_B" },
-				-- Alternative: Eurydice first meeting
-				HasAny = { "EurydiceFirstMeeting01_A", "EurydiceFirstMeeting01_B", "EurydiceFirstMeeting01_C" },
+				HasAny = { "OrpheusSingsAgain03", "OrpheusSingsAgain03_B" },
 			},
 		},
 		Cost = {
@@ -1042,10 +1025,7 @@ local zagreusJourneyWorldUpgradeData = {
 			Append = true,
 			{
 				Path = { "GameState", "TextLinesRecord", },
-				-- TODO: Currently not obtainable in Zagreus' Journey
-				-- HasAny = { "OrpheusSingsAgain03", "OrpheusSingsAgain03_B" },
-				-- Alternative: Eurydice first meeting
-				HasAny = { "EurydiceFirstMeeting01_A", "EurydiceFirstMeeting01_B", "EurydiceFirstMeeting01_C" },
+				HasAny = { "OrpheusSingsAgain03", "OrpheusSingsAgain03_B" },
 			},
 		},
 		Cost = {
