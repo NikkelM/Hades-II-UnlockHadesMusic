@@ -1077,7 +1077,7 @@ end
 
 -- If the config option is enabled, unlock all songs immediately
 if config.unlockEverything then
-	-- This must be the same as the wrap for HubPostBountyLoad, which is called instead of DeathAreaRoomTransition when returning from a Chaos Trial
+	-- This must be the same as the wrap for HubPostBountyLoad and HubPostDreamLoad
 	modutil.mod.Path.Wrap("DeathAreaRoomTransition", function(base, source, args)
 		-- It doesn't matter which table we use here, as the names are the same
 		for songName, _ in pairs(defaultSongWorldUpgradeData) do
@@ -1088,6 +1088,15 @@ if config.unlockEverything then
 
 	-- If returning from a Chaos Trial, this will be called instead of DeathAreaRoomTransition
 	modutil.mod.Path.Wrap("HubPostBountyLoad", function(base, source, args)
+		-- It doesn't matter which table we use here, as the names are the same
+		for songName, _ in pairs(defaultSongWorldUpgradeData) do
+			game.AddWorldUpgrade(songName)
+		end
+		return base(source, args)
+	end)
+
+	-- If returning from a Dream Dive, this will be called instead of DeathAreaRoomTransition
+	modutil.mod.Path.Wrap("HubPostDreamLoad", function(base, source, args)
 		-- It doesn't matter which table we use here, as the names are the same
 		for songName, _ in pairs(defaultSongWorldUpgradeData) do
 			game.AddWorldUpgrade(songName)

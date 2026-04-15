@@ -1,10 +1,15 @@
 # Changelog
 
-## v1.4.4
+## v1.4.5
 
 <!--Releasenotes start-->
-- Updated unlock requirements for a number of songs following the addition of Orpheus to [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/).
+- Fixed music not playing when returning from a Dream Dive.
+- Fixed songs not being unlocked immediately when the config option to unlock everything is enabled when returning from a Dream Dive.
 <!--Releasenotes end-->
+
+## v1.4.4
+
+- Updated unlock requirements for a number of songs following the addition of Orpheus to [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/).
 
 ## v1.4.3
 
