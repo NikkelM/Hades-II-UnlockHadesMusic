@@ -1,11 +1,15 @@
 # Changelog
 
-## v1.4.5
+## v1.4.6
 
 <!--Releasenotes start-->
+- Fixed an issue where using `unlockEverything` to unlock all songs immediately would not add them to a secondary internal table tracking song unlocks.
+<!--Releasenotes end-->
+
+## v1.4.5
+
 - Fixed music not playing when returning from a Dream Dive.
 - Fixed songs not being unlocked immediately when the config option to unlock everything is enabled when returning from a Dream Dive.
-<!--Releasenotes end-->
 
 ## v1.4.4
 

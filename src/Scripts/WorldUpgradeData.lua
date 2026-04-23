@@ -87,6 +87,7 @@ if config.unlockEverything then
 		for worldUpgradeName, _ in pairs(newWorldUpgradeData) do
 			game.AddWorldUpgrade(worldUpgradeName)
 		end
+
 		return base(source, args)
 	end)
 
@@ -95,6 +96,7 @@ if config.unlockEverything then
 		for worldUpgradeName, _ in pairs(newWorldUpgradeData) do
 			game.AddWorldUpgrade(worldUpgradeName)
 		end
+
 		return base(source, args)
 	end)
 
@@ -103,6 +105,7 @@ if config.unlockEverything then
 		for worldUpgradeName, _ in pairs(newWorldUpgradeData) do
 			game.AddWorldUpgrade(worldUpgradeName)
 		end
+
 		return base(source, args)
 	end)
 end
@@ -110,6 +113,9 @@ end
 function mod.PostUnlockHadesMusicUpgrade()
 	local unlockedBaseTrack = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer"
 	game.AddWorldUpgrade(unlockedBaseTrack)
+	if not game.Contains(game.GameState.UnlockedMusicPlayerSongs, unlockedBaseTrack) then
+		table.insert(game.GameState.UnlockedMusicPlayerSongs, unlockedBaseTrack)
+	end
 	game.GameState.MusicPlayerSongName = unlockedBaseTrack
 	game.MusicianMusic(game.WorldUpgradeData[unlockedBaseTrack].TrackName)
 	game.CancelArtemisSinging()
