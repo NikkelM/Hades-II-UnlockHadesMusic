@@ -6,8 +6,8 @@
 ---@diagnostic disable-next-line: undefined-global
 local mods = rom.mods
 
----@module 'SGG_Modding-ENVY-auto'
-mods['SGG_Modding-ENVY'].auto()
+---@module "SGG_Modding-ENVY-auto"
+mods["SGG_Modding-ENVY"].auto()
 -- ^ this gives us `public` and `import`, among others
 --	and makes all globals we define private to this plugin.
 ---@diagnostic disable: lowercase-global
@@ -18,23 +18,26 @@ rom = rom
 _PLUGIN = _PLUGIN
 
 -- get definitions for the game's globals
----@module 'game'
+---@module "game"
 game = rom.game
----@module 'game-import'
+---@module "game-import"
 import_as_fallback(game)
 
----@module 'SGG_Modding-SJSON'
-sjson = mods['SGG_Modding-SJSON']
----@module 'SGG_Modding-ModUtil'
-modutil = mods['SGG_Modding-ModUtil']
+---@module "SGG_Modding-SJSON"
+sjson = mods["SGG_Modding-SJSON"]
+---@module "SGG_Modding-ModUtil"
+modutil = mods["SGG_Modding-ModUtil"]
 
----@module 'SGG_Modding-Chalk'
+---@module "SGG_Modding-Chalk"
 chalk = mods["SGG_Modding-Chalk"]
----@module 'SGG_Modding-ReLoad'
-reload = mods['SGG_Modding-ReLoad']
+---@module "SGG_Modding-ReLoad"
+reload = mods["SGG_Modding-ReLoad"]
 
----@module 'config'
-config = chalk.auto 'config.lua'
+---@module "NikkelM-Music_Maker_API"
+MusicMakerAPI = mods["NikkelM-Music_Maker_API"]
+
+---@module "config"
+config = chalk.auto "config.lua"
 -- ^ this updates our `.cfg` file in the config folder!
 public.config = config -- so other mods can access our config
 
@@ -67,25 +70,26 @@ local function on_ready()
 	if config.enabled == false then return end
 	mod = modutil.mod.Mod.Register(_PLUGIN.guid)
 
-	import 'Scripts/MusicPlayerData.lua'
-	import 'Scripts/LoadSoundBanks.lua'
-	import 'Scripts/WorldUpgradeData.lua'
-	import 'Scripts/GhostAdminData_Items.lua'
-	import 'Scripts/PatchLogic.lua'
+	import "Scripts/MusicPlayerData.lua"
+	import "Scripts/WorldUpgradeData.lua"
+	import "Scripts/GhostAdminData_Items.lua"
 
-	-- Localizations
-	-- Some languages are missing, as they did not exist for Hades
-	import 'Game/Text/HelpText.de.sjson.lua'
-	import 'Game/Text/HelpText.en.sjson.lua'
-	import 'Game/Text/HelpText.es.sjson.lua'
-	import 'Game/Text/HelpText.fr.sjson.lua'
-	import 'Game/Text/HelpText.it.sjson.lua'
-	import 'Game/Text/HelpText.ja.sjson.lua'
-	import 'Game/Text/HelpText.ko.sjson.lua'
-	import 'Game/Text/HelpText.pl.sjson.lua'
-	import 'Game/Text/HelpText.pt-BR.sjson.lua'
-	import 'Game/Text/HelpText.zh-CN.sjson.lua'
-	import 'Game/Text/HelpText.ru.sjson.lua'
+	-- Localizations for the incantation
+	import "Game/Text/HelpText.de.sjson.lua"
+	import "Game/Text/HelpText.el.sjson.lua"
+	import "Game/Text/HelpText.en.sjson.lua"
+	import "Game/Text/HelpText.es.sjson.lua"
+	import "Game/Text/HelpText.fr.sjson.lua"
+	import "Game/Text/HelpText.it.sjson.lua"
+	import "Game/Text/HelpText.ja.sjson.lua"
+	import "Game/Text/HelpText.ko.sjson.lua"
+	import "Game/Text/HelpText.pl.sjson.lua"
+	import "Game/Text/HelpText.pt-BR.sjson.lua"
+	import "Game/Text/HelpText.ru.sjson.lua"
+	import "Game/Text/HelpText.tr.sjson.lua"
+	import "Game/Text/HelpText.uk.sjson.lua"
+	import "Game/Text/HelpText.zh-CN.sjson.lua"
+	import "Game/Text/HelpText.zh-TW.sjson.lua"
 end
 
 local function on_reload()

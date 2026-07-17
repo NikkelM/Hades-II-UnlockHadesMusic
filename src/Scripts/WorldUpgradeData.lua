@@ -50,8 +50,12 @@ local newWorldUpgradeData = {
 
 -- If Zagreus' Journey is installed, at least one modded run must be completed to unlock the upgrade, and the cost is different as well
 -- Also, Zagreus' Journey will move the incantation to it's own category
-local mods = rom.mods
-local zagreusJourneyActive = mods["NikkelM-Zagreus_Journey"]
+local zagreusJourneyActive = rom.mods["NikkelM-Zagreus_Journey"]
+-- Even though the mod is active in the mod manager, it is disabled in the config
+if zagreusJourneyActive and zagreusJourneyActive.config and zagreusJourneyActive.config.enabled == false then
+	zagreusJourneyActive = false
+end
+
 if zagreusJourneyActive then
 	table.insert(newWorldUpgradeData.WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic.GameStateRequirements,
 		{

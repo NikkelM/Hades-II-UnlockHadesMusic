@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.4.7
+## v1.5.0
 
 <!--Releasenotes start-->
 - Removed "The Unseen Ones" as it now exists in the vanilla game as well and would be duplicated.

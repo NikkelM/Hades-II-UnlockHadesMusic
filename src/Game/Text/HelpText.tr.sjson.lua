@@ -19,7 +19,7 @@ local newData = {
   -- },
 }
 
-local helpTextFile = rom.path.combine(rom.paths.Content, 'Game/Text/ko/HelpText.ko.sjson')
+local helpTextFile = rom.path.combine(rom.paths.Content, 'Game/Text/tr/HelpText.tr.sjson')
 
 sjson.hook(helpTextFile, function(data)
   for _, newHelpText in ipairs(newData) do
