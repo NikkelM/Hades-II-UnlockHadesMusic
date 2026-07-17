@@ -1,10 +1,15 @@
 # Changelog
 
-## v1.4.6
+## v1.4.7
 
 <!--Releasenotes start-->
-- Fixed an issue where using `unlockEverything` to unlock all songs immediately would not add them to a secondary internal table tracking song unlocks.
+- Removed "The Unseen Ones" as it now exists in the vanilla game as well and would be duplicated.
+- Migrated to the Music Maker API.
 <!--Releasenotes end-->
+
+## v1.4.6
+
+- Fixed an issue where using `unlockEverything` to unlock all songs immediately would not add them to a secondary internal table tracking song unlocks.
 
 ## v1.4.5
 
