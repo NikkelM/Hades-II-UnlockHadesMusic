@@ -1,11 +1,14 @@
 # Changelog
 
-## v1.5.0
+## v1.5.1
 
 <!--Releasenotes start-->
 - Removed "The Unseen Ones" as it now exists in the vanilla game as well and would be duplicated.
-- Migrated to the Music Maker API.
 <!--Releasenotes end-->
+
+## v1.5.0
+
+- Migrated to the Music Maker API.
 
 ## v1.4.6
 

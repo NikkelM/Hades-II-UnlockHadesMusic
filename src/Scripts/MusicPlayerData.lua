@@ -14,7 +14,6 @@ public.HadesOstSongNames = {
 	"ModsNikkelMUnlockHadesMusicMusicPlayerMusicElysium3MusicPlayer",
 	"ModsNikkelMUnlockHadesMusicMusicPlayerMusicStyx1MusicPlayer",
 	"ModsNikkelMUnlockHadesMusicMusicPlayerBossFightMusicMusicPlayer",
-	"ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
 	"ModsNikkelMUnlockHadesMusicMusicPlayerCharonShopThemeMusicPlayer",
 	"ModsNikkelMUnlockHadesMusicMusicPlayerCharonFightThemeMusicPlayer",
 	"ModsNikkelMUnlockHadesMusicMusicPlayerChaosThemeMusicPlayer",
@@ -848,61 +847,6 @@ MusicMakerAPI.RegisterSong({
 		CosmeticsPoints = 600,
 		MixerIBoss = 2,
 		OreIMarble = 5,
-	},
-	Rocking = true,
-	UnlockImmediately = config.unlockEverything,
-})
--- Hades - The Unseen Ones
-MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMUnlockHadesMusicMusicPlayerTheUnseenOnesMusicPlayer",
-	TrackName = "{50ebf4d6-4c76-416f-9c32-33787f99f27e}",
-	InheritFrom = { "ModsNikkelMUnlockHadesMusicDefaultSongItem" },
-	Name = {
-		en = "Hades - The Unseen Ones",
-		de = "Hades - Die Unsichtbaren",
-		es = "Hades - Los ocultos",
-		fr = "Hadès - Les Occultés",
-		it = "Ade - I Non Visti",
-		ja = "ハデス - 見えざる者ども",
-		ko = "하데스 - 전대미문의 존재들",
-		pl = "Hades - Niewidoczni Wybrańcy",
-		["pt-BR"] = "Hades - Os Ocultos",
-		ru = "Аид - Незримые главы",
-		["zh-CN"] = "《哈迪斯 - 无形者》",
-	},
-	Description = {
-		en = "Banned for containing too many music notes per second.",
-		de = "Wegen zu vieler Musiknoten pro Sekunde verboten.",
-		es = "Prohibida por incluir demasiadas notas musicales por segundo.",
-		fr = "Morceau banni car contenant trop de notes par seconde.",
-		it = "Messa al bando per eccesso di note al secondo.",
-		ja = "「1秒あたりの音数が多すぎる」として、\n演奏を禁じられた一曲。",
-		ko = "높은 BPM 때문에 연주가 금지됐습니다.",
-		pl = "Zakazany za posiadanie zbyt wielu nut na sekundę.",
-		["pt-BR"] = "Banida por conter muitas notas musicais por segundo.",
-		ru = "Запрещена из-за чрезмерного количества нот, проигрываемых за одну секунду.",
-		["zh-CN"] = "由于每秒音符数量太多而遭到禁绝。",
-	},
-	GameStateRequirements = zagreusJourneyActive and {
-		Append = true,
-		{
-			PathTrue = { "GameState", "TextLinesRecord", "LordHadesExtremeMeasures01" },
-		},
-	} or {
-		-- Unlocked the third Skelly statue
-		Append = true,
-		{
-			PathTrue = { "GameState", "TextLinesRecord", "TrophyQuestComplete03" },
-		},
-	},
-	Cost = zagreusJourneyActive and {
-		CosmeticsPoints = 600,
-		ModsNikkelMHadesBiomes_BossResourceStyx = 3,
-	} or {
-		CosmeticsPoints = 600,
-		MemPointsCommon = 250,
-		MetaCardPointsCommon = 250,
-		OreFSilver = 3,
 	},
 	Rocking = true,
 	UnlockImmediately = config.unlockEverything,
