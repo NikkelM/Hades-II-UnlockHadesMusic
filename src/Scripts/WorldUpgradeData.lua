@@ -116,10 +116,8 @@ end
 
 function mod.PostUnlockHadesMusicUpgrade()
 	local unlockedBaseTrack = "ModsNikkelMUnlockHadesMusicMusicPlayerMainThemeMusicPlayer"
-	game.AddWorldUpgrade(unlockedBaseTrack)
-	if not game.Contains(game.GameState.UnlockedMusicPlayerSongs, unlockedBaseTrack) then
-		table.insert(game.GameState.UnlockedMusicPlayerSongs, unlockedBaseTrack)
-	end
+	-- Grant through the API so the song is recorded in the API's own unlocked-song list, never in GameState.UnlockedMusicPlayerSongs
+	MusicMakerAPI.UnlockSong(unlockedBaseTrack)
 	game.GameState.MusicPlayerSongName = unlockedBaseTrack
 	game.MusicianMusic(game.WorldUpgradeData[unlockedBaseTrack].TrackName)
 	game.CancelArtemisSinging()

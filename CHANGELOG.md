@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.5.1
+## v1.5.2
 
 <!--Releasenotes start-->
-- Removed "The Unseen Ones" as it now exists in the vanilla game as well and would be duplicated.
+- Added compatibility for the Music Maker API's new internal song tracking mechanism.
 <!--Releasenotes end-->
+
+## v1.5.1
+
+- Removed "The Unseen Ones" as it now exists in the vanilla game as well and would be duplicated.
 
 ## v1.5.0
 
