@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.5.2
+## v1.5.3
 
 <!--Releasenotes start-->
-- Added compatibility for the Music Maker API's new internal song tracking mechanism.
+- Fixed images in the Readme not showing on Thunderstore.
 <!--Releasenotes end-->
+
+## v1.5.2
+
+- Added compatibility for the Music Maker API's new internal song tracking mechanism.
 
 ## v1.5.1
 

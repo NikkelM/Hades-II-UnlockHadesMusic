@@ -6,7 +6,7 @@ A new incantation is added to the cauldron, performing it will unlock the first 
 
 Most tracks are only made available by meeting certain conditions, such as visiting certain locations or beating specific enemies - these unlock conditions often loosely relate to the song itself.
 
-![Hades OST for the Music Maker - Unlock a Song](./img/GoodRiddancePurchase.jpg)
+![Hades OST for the Music Maker - Unlock a Song](https://github.com/NikkelM/Hades-II-UnlockHadesMusic/raw/main/img/GoodRiddancePurchase.jpg)
 
 If you also have [Zagreus' Journey](https://thunderstore.io/c/hades-ii/p/NikkelM/Zagreus_Journey/) installed, the unlock conditions and resource costs for new songs will adapt to your progression in that mod, and use its new resources.
 
@@ -25,7 +25,7 @@ To further improve your musical experience in the Crossroads, consider installin
 Make sure to perform the prerequisite incantation first.
 It will unlock after you own enough other songs.
 
-![Hades OST for the Music Maker - Perform the Incantation](./img/IncantationScreen.jpg)
+![Hades OST for the Music Maker - Perform the Incantation](https://github.com/NikkelM/Hades-II-UnlockHadesMusic/raw/main/img/IncantationScreen.jpg)
 
 ### I only see a few songs in the Music Maker screen. Where is ___?
 
@@ -39,4 +39,4 @@ If you don't want to wait, you can set the `unlockEverything` config option to `
 
 *WARNING*: Using this option is irreversible! Even if you set it to false again, the songs will remain unlocked.
 
-![Hades OST for the Music Maker - Incantation complete](./img/IncantationComplete.jpg)
+![Hades OST for the Music Maker - Incantation complete](https://github.com/NikkelM/Hades-II-UnlockHadesMusic/raw/main/img/IncantationComplete.jpg)
