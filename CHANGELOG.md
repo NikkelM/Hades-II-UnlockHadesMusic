@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.5.3
+## v1.5.4
 
 <!--Releasenotes start-->
-- Fixed images in the Readme not showing on Thunderstore.
+- Added French localization for the new incantation (by [@JeanDupin](https://github.com/JeanDupin)).
 <!--Releasenotes end-->
+
+## v1.5.3
+
+- Fixed images in the Readme not showing on Thunderstore.
 
 ## v1.5.2
 
