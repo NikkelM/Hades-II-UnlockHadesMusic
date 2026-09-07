@@ -8,15 +8,15 @@ local order = {
 }
 
 local newData = {
-  -- {
-  --   Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic",
-  --   DisplayName = "Recovery of Orpheus' Scriptures",
-  --   Description = "Allow the {$Keywords.MusicPlayer} to perform musical pieces originally created by Orpheus and enjoyed in the House of Hades."
-  -- },
-  -- {
-  --   Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic_Flavor",
-  --   Description = "Though Orpheus cannot be here with us, his music may. This way, you can feel closer to your lost family and home."
-  -- },
+  {
+    Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic",
+    DisplayName = "Récupération des partitions d'Orphée",
+    Description = "Permet au {$Keywords.MusicPlayer} d'interpréter les morceaux composés par Orphée et qui résonnaient jadis dans la Maison d'Hadès."
+  },
+  {
+    Id = "WorldUpgradeMusicPlayerModsNikkelMUnlockHadesMusic_Flavor",
+    Description = "Orphée ne peut être parmi nous, mais sa musique, elle, le peut. Ainsi te sentiras-tu plus proche de ta famille et de ton foyer perdus."
+  },
 }
 
 local helpTextFile = rom.path.combine(rom.paths.Content, 'Game/Text/fr/HelpText.fr.sjson')
